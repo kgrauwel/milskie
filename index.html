@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#146c65">
+    <title>Flashcards</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">FC</div>
+          <div>
+            <h1>Flashcards</h1>
+            <p id="activeSetLabel">Laden...</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <a class="info-link" href="./info.html" target="_blank" rel="noopener" aria-label="Info over de app">i</a>
+          <button class="button secondary" id="installButton" type="button" hidden>Installeren</button>
+          <button class="button secondary" id="importButton" type="button">Import JSON/CSV</button>
+          <a class="button secondary" href="./credits.html" target="_blank" rel="noopener">Credits</a>
+          <button class="button" id="exportButton" type="button">Export</button>
+          <input id="importFile" type="file" accept="application/json,text/csv,.json,.csv" hidden>
+        </div>
+      </header>
+
+      <nav class="tabs" aria-label="Hoofdscherm">
+        <button class="tab active" type="button" data-view="study">Leren</button>
+        <button class="tab" type="button" data-view="cards">Kaarten</button>
+        <button class="tab" type="button" data-view="sets">Sets</button>
+        <button class="tab" type="button" data-view="math">Rekenen</button>
+        <button class="tab" type="button" data-view="options">Opties</button>
+      </nav>
+
+      <main class="layout">
+        <aside class="sidebar" aria-label="Flashcardsets">
+          <div class="section-heading">
+            <h2>Sets</h2>
+            <button class="button compact" id="newDeckButton" type="button">Nieuwe set</button>
+          </div>
+          <label class="field">
+            <span>Zoeken</span>
+            <input id="deckSearch" type="search" autocomplete="off" placeholder="Set zoeken">
+          </label>
+          <div class="deck-list" id="deckList"></div>
+        </aside>
+
+        <section class="workspace">
+          <div class="view-heading">
+            <div>
+              <h2 id="viewTitle">Leren</h2>
+              <p id="viewMeta"></p>
+            </div>
+            <div class="view-actions" id="viewActions"></div>
+          </div>
+
+          <section class="view active" id="studyView" data-view-panel="study">
+            <div class="study-grid">
+              <div class="study-main">
+                <div class="flashcard" id="studyCard" role="button" tabindex="0">
+                  <span class="card-side" id="studySide">Vraag</span>
+                  <span class="card-text" id="studyText"></span>
+                  <img class="card-image" id="studyImage" alt="" hidden>
+                  <audio class="card-audio" id="studyAudio" controls hidden></audio>
+                  <button class="peek-question-button" id="peekQuestionButton" type="button" hidden aria-label="Vraag opnieuw bekijken">↙↗</button>
+                  <div class="zoom-buttons" aria-label="Kaartzoom">
+                    <button class="zoom-button" id="zoomOutButton" type="button" hidden aria-label="Zoom uit">-</button>
+                    <button class="zoom-button" id="zoomInButton" type="button" hidden aria-label="Zoom in">+</button>
+                  </div>
+                </div>
+                <form class="answer-panel" id="typedAnswerForm" hidden>
+                  <label class="field" id="typedAnswerSingleField">
+                    <span>Jouw antwoord</span>
+                    <input id="typedAnswerInput" type="text" autocomplete="off" placeholder="Typ je antwoord">
+                  </label>
+                  <div class="typed-answer-fields" id="typedAnswerFields" hidden></div>
+                  <button class="button" id="checkAnswerButton" type="submit">Controleer</button>
+                  <div class="answer-feedback" id="typedAnswerFeedback"></div>
+                </form>
+                <div class="study-controls">
+                  <button class="button secondary" id="flipButton" type="button">Omdraaien</button>
+                  <button class="button good" id="knownButton" type="button">Ik wist het</button>
+                  <button class="button warn" id="againButton" type="button">Nog oefenen</button>
+                  <button class="button secondary" id="nextButton" type="button">Volgende</button>
+                </div>
+              </div>
+              <aside class="stats-panel">
+                <div class="metric">
+                  <span>Voortgang</span>
+                  <strong id="progressMetric">0 / 0</strong>
+                </div>
+                <div class="metric">
+                  <span>Goed</span>
+                  <strong id="knownMetric">0</strong>
+                </div>
+                <div class="metric">
+                  <span>Oefenen</span>
+                  <strong id="againMetric">0</strong>
+                </div>
+                <div class="metric" id="timerMetricRow">
+                  <span>Timer</span>
+                  <strong id="timerMetric">00:00</strong>
+                </div>
+                <div class="metric" id="timerScoreRow">
+                  <span>Juist / geprobeerd</span>
+                  <strong id="timerCountMetric">0 / 0</strong>
+                </div>
+                <div class="timer-tools" id="timerTools">
+                  <div class="timer-goal" id="timerGoalText">Doel: alle kaarten goed</div>
+                  <button class="button good" id="startTimerButton" type="button">Start timer</button>
+                  <button class="button secondary" id="stopTimerButton" type="button">Stop timer</button>
+                </div>
+                <div class="stat-actions">
+                  <button class="button secondary" id="resetRoundButton" type="button">Opnieuw starten</button>
+                </div>
+              </aside>
+            </div>
+          </section>
+
+          <section class="view" id="cardsView" data-view-panel="cards" hidden>
+            <form class="editor-form" id="cardForm">
+              <input type="hidden" id="editingCardId">
+              <label class="field">
+                <span>Vraag</span>
+                <textarea id="frontInput" rows="4" placeholder="Voorkant van de kaart"></textarea>
+              </label>
+              <div class="image-field">
+                <label class="field">
+                  <span>Afbeelding bij vraag</span>
+                  <input id="frontImageInput" type="file" accept="image/*">
+                </label>
+                <div class="image-preview" id="frontImagePreview"></div>
+                <button class="button secondary compact" id="removeFrontImageButton" type="button" hidden>Afbeelding verwijderen</button>
+              </div>
+              <label class="field">
+                <span>Antwoord</span>
+                <textarea id="backInput" rows="4" placeholder="Achterkant van de kaart"></textarea>
+              </label>
+              <div class="image-field">
+                <label class="field">
+                  <span>Afbeelding bij antwoord</span>
+                  <input id="backImageInput" type="file" accept="image/*">
+                </label>
+                <div class="image-preview" id="backImagePreview"></div>
+                <button class="button secondary compact" id="removeBackImageButton" type="button" hidden>Afbeelding verwijderen</button>
+              </div>
+              <label class="field">
+                <span>Labels</span>
+                <input id="tagsInput" type="text" autocomplete="off" placeholder="bijvoorbeeld hoofdstuk 1, moeilijk">
+              </label>
+              <div class="form-actions">
+                <button class="button" id="saveCardButton" type="submit">Kaart toevoegen</button>
+                <button class="button secondary" id="cancelEditButton" type="button" hidden>Annuleren</button>
+              </div>
+            </form>
+
+            <div class="list-toolbar">
+              <label class="field inline">
+                <span>Zoeken</span>
+                <input id="cardSearch" type="search" autocomplete="off" placeholder="Kaart zoeken">
+              </label>
+            </div>
+            <div class="card-list" id="cardList"></div>
+          </section>
+
+          <section class="view" id="setsView" data-view-panel="sets" hidden>
+            <form class="editor-form" id="deckForm">
+              <label class="field">
+                <span>Naam</span>
+                <input id="deckTitleInput" type="text" required autocomplete="off">
+              </label>
+              <label class="field">
+                <span>Notitie</span>
+                <textarea id="deckDescriptionInput" rows="3"></textarea>
+              </label>
+              <div class="field">
+                <span>Kleur</span>
+                <div class="swatches" id="colorSwatches"></div>
+              </div>
+              <div class="form-actions">
+                <button class="button" type="submit">Set bewaren</button>
+                <button class="button secondary" id="duplicateDeckButton" type="button">Kopie maken</button>
+                <button class="button danger" id="deleteDeckButton" type="button">Verwijderen</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="view" id="mathView" data-view-panel="math" hidden>
+            <form class="editor-form" id="mathForm">
+              <label class="field">
+                <span>Naam van de set</span>
+                <input id="mathDeckTitleInput" type="text" value="Rekenen" autocomplete="off">
+              </label>
+              <div class="field">
+                <span>Bewerking</span>
+                <div class="segmented" role="radiogroup" aria-label="Bewerking">
+                  <label><input type="radio" name="mathOperation" value="add" checked><span>+</span></label>
+                  <label><input type="radio" name="mathOperation" value="subtract"><span>-</span></label>
+                  <label><input type="radio" name="mathOperation" value="multiply"><span>x</span></label>
+                  <label><input type="radio" name="mathOperation" value="divide"><span>/</span></label>
+                </div>
+              </div>
+              <div class="math-options" id="mathRangeOptions">
+                <label class="field">
+                  <span>Tot en met</span>
+                  <input id="mathMaxInput" type="number" min="2" max="100" step="1" value="20">
+                </label>
+              </div>
+              <div class="math-options" id="mathTableOptions" hidden>
+                <label class="field">
+                  <span>Tafels</span>
+                  <input id="mathTablesInput" type="text" value="1,2,3,4,5,6,7,8,9,10" autocomplete="off">
+                </label>
+                <label class="field">
+                  <span>Van 1 tot en met</span>
+                  <input id="mathTableLimitInput" type="number" min="1" max="50" step="1" value="10">
+                </label>
+              </div>
+              <div class="form-actions">
+                <button class="button" type="submit">Rekenset maken</button>
+              </div>
+              <div class="empty-state" id="mathPreview"></div>
+            </form>
+          </section>
+
+          <section class="view" id="optionsView" data-view-panel="options" hidden>
+            <form class="editor-form" id="settingsForm">
+              <div class="field">
+                <span>Manier van leren</span>
+                <div class="segmented wide" role="radiogroup" aria-label="Manier van leren">
+                  <label><input type="radio" name="studyMode" value="flip"><span>Omdraaien</span></label>
+                  <label><input type="radio" name="studyMode" value="type"><span>Antwoord typen</span></label>
+                </div>
+              </div>
+              <div class="field">
+                <span>Timer</span>
+                <div class="segmented wide" role="radiogroup" aria-label="Timer">
+                  <label><input type="radio" name="timerMode" value="on"><span>Met timer</span></label>
+                  <label><input type="radio" name="timerMode" value="off"><span>Zonder timer</span></label>
+                </div>
+              </div>
+              <div class="field">
+                <span>Taalrichting</span>
+                <div class="segmented wide" role="radiogroup" aria-label="Taalrichting">
+                  <label><input type="radio" name="languageDirection" value="nlToTarget"><span>NL -> taal</span></label>
+                  <label><input type="radio" name="languageDirection" value="targetToNl"><span>Taal -> NL</span></label>
+                </div>
+              </div>
+              <div class="filter-grid">
+                <label class="field">
+                  <span>Taal Codex soort</span>
+                  <select id="frCategorySelect">
+                    <option value="all">Woorden en werkwoorden</option>
+                    <option value="words">Alleen woorden</option>
+                    <option value="verbs">Alleen werkwoorden</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Taal Codex leerjaar</span>
+                  <select id="frLevelSelect">
+                    <option value="all">Alle leerjaren</option>
+                    <option value="1e Leerjaar">1e Leerjaar</option>
+                    <option value="2e Leerjaar">2e Leerjaar</option>
+                    <option value="3e Leerjaar">3e Leerjaar</option>
+                    <option value="4e Leerjaar">4e Leerjaar</option>
+                    <option value="5e Leerjaar">5e Leerjaar</option>
+                    <option value="6e Leerjaar">6e Leerjaar</option>
+                    <option value="1e ASO">1e ASO</option>
+                    <option value="2e ASO">2e ASO</option>
+                    <option value="3e ASO">3e ASO</option>
+                    <option value="4e ASO">4e ASO</option>
+                    <option value="5e ASO">5e ASO</option>
+                    <option value="6e ASO">6e ASO</option>
+                  </select>
+                </label>
+              </div>
+            </form>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

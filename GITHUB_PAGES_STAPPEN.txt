@@ -1,0 +1,40 @@
+GITHUB PAGES PUBLICATIE
+=======================
+
+Deze map is de propere websiteversie van de flashcard-app.
+Upload of push de inhoud van deze map naar een GitHub repository.
+
+Aanbevolen repositorynaam:
+
+milskie
+
+De uiteindelijke link wordt normaal:
+
+https://GITHUB-NAAM.github.io/milskie/
+
+Voorbeeld:
+
+Als je GitHub-gebruikersnaam koen123 is:
+https://koen123.github.io/milskie/
+
+De link https://milskie.github.io/milskie/ kan alleen als het GitHub-account
+of de GitHub-organisatie zelf "milskie" heet en jij daar toegang toe hebt.
+
+GitHub Pages instellingen:
+
+1. Repository moet public zijn als je GitHub Free gebruikt.
+2. Ga naar Settings -> Pages.
+3. Kies "Deploy from a branch".
+4. Branch: main.
+5. Folder: /root.
+6. Klik Save.
+
+Daarna kan het enkele minuten duren voor de website online staat.
+
+Belangrijk:
+
+- GitHub Pages gebruikt geen Python.
+- index.html, app.js, styles.css, data, images, audio, icons en credits
+  moeten mee online staan.
+- Nieuwe sets die iemand in de browser maakt, blijven in die browser bewaard.
+- Gebruik Export in de app als backup of om nieuwe sets met iemand te delen.

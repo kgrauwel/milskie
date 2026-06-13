@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Flashcards">
+  <rect width="512" height="512" rx="96" fill="#146c65"/>
+  <rect x="108" y="116" width="256" height="184" rx="24" fill="#ffffff" opacity="0.92"/>
+  <rect x="148" y="172" width="176" height="24" rx="12" fill="#315c9b"/>
+  <rect x="148" y="220" width="128" height="24" rx="12" fill="#c2563d"/>
+  <rect x="156" y="228" width="256" height="184" rx="24" fill="#f7f6ef" opacity="0.96"/>
+  <rect x="196" y="284" width="176" height="24" rx="12" fill="#146c65"/>
+  <rect x="196" y="332" width="112" height="24" rx="12" fill="#b7791f"/>
+</svg>
