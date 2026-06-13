@@ -1,7 +1,16 @@
 const STORAGE_KEY = "flashcards.app.v1";
-const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v4";
+const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v5";
 const STATIC_LIBRARY_URL = "./data/flashcards.json";
 const COLORS = ["#146c65", "#315c9b", "#c2563d", "#2f7d4f", "#b7791f", "#6f4e7c"];
+const WORLD_DECK_ID = "deck-wereld-landen-hoofdsteden";
+const WORLD_CONTINENTS = [
+  { value: "Europe", label: "Europa" },
+  { value: "Africa", label: "Afrika" },
+  { value: "Asia", label: "Azië" },
+  { value: "North America", label: "Noord-Amerika" },
+  { value: "South America", label: "Zuid-Amerika" },
+  { value: "Oceania", label: "Oceanië" }
+];
 
 const defaultDecks = [
   {
@@ -148,6 +157,7 @@ const els = {
   languageDirectionInputs: Array.from(document.querySelectorAll("[name='languageDirection']")),
   frCategorySelect: document.querySelector("#frCategorySelect"),
   frLevelSelect: document.querySelector("#frLevelSelect"),
+  worldContinentInputs: Array.from(document.querySelectorAll("[name='worldContinent']")),
   toast: document.querySelector("#toast")
 };
 
@@ -311,7 +321,18 @@ function normalizeSettings(settings) {
   const languageDirection = input.languageDirection === "targetToNl" ? "targetToNl" : "nlToTarget";
   const frCategory = ["all", "words", "verbs"].includes(input.frCategory) ? input.frCategory : "all";
   const frLevel = isFrLevel(input.frLevel) ? input.frLevel : "all";
-  return { studyMode, timerEnabled, languageDirection, frCategory, frLevel };
+  const worldContinents = normalizeWorldContinents(input.worldContinents);
+  return { studyMode, timerEnabled, languageDirection, frCategory, frLevel, worldContinents };
+}
+
+function normalizeWorldContinents(values) {
+  const allowed = WORLD_CONTINENTS.map((continent) => continent.value);
+  if (!Array.isArray(values)) {
+    return allowed;
+  }
+
+  const selected = values.filter((value) => allowed.includes(value));
+  return selected.length ? selected : allowed;
 }
 
 function isFrLevel(value) {
@@ -466,6 +487,9 @@ function bindEvents() {
   });
   els.frCategorySelect.addEventListener("change", saveSettings);
   els.frLevelSelect.addEventListener("change", saveSettings);
+  els.worldContinentInputs.forEach((input) => {
+    input.addEventListener("change", saveSettings);
+  });
 
   els.exportButton.addEventListener("click", exportData);
   els.importButton.addEventListener("click", () => els.importFile.click());
@@ -534,7 +558,7 @@ function renderView() {
   els.viewTitle.textContent = titles[activeView];
   if (!deck) {
     els.viewMeta.textContent = "";
-  } else if (isLanguageCodexDeck(deck)) {
+  } else if (isLanguageCodexDeck(deck) || isWorldCountriesDeck(deck)) {
     els.viewMeta.textContent = `${deck.title} - ${studyCount} geselecteerd van ${deck.cards.length}`;
   } else {
     els.viewMeta.textContent = `${deck.title} - ${deck.cards.length} kaart${deck.cards.length === 1 ? "" : "en"}`;
@@ -1078,7 +1102,7 @@ function renderColorSwatches() {
 function ensureStudyQueue(force = false) {
   const deck = getActiveDeck();
   const signature = deck
-    ? `${deck.id}:${languageFilterSignature(deck)}:${deck.cards.map((card) => card.id).join("|")}`
+    ? `${deck.id}:${studyFilterSignature(deck)}:${deck.cards.map((card) => card.id).join("|")}`
     : "none";
 
   if (!force && study.signature === signature) {
@@ -1119,6 +1143,10 @@ function getStudyCardIndices(deck) {
 }
 
 function cardMatchesStudyFilters(deck, card) {
+  if (isWorldCountriesDeck(deck)) {
+    return cardMatchesWorldFilter(card);
+  }
+
   if (!isLanguageCodexDeck(deck)) {
     return true;
   }
@@ -1144,7 +1172,27 @@ function cardMatchesStudyFilters(deck, card) {
   return true;
 }
 
-function languageFilterSignature(deck) {
+function cardMatchesWorldFilter(card) {
+  const selected = getSelectedWorldContinents();
+  if (selected.length === WORLD_CONTINENTS.length) {
+    return true;
+  }
+
+  const tags = normalizeSearch(card.tags);
+  return WORLD_CONTINENTS.some((continent) =>
+    selected.includes(continent.value) && tags.includes(normalizeSearch(continent.value))
+  );
+}
+
+function getSelectedWorldContinents() {
+  return normalizeWorldContinents(state.settings?.worldContinents);
+}
+
+function studyFilterSignature(deck) {
+  if (isWorldCountriesDeck(deck)) {
+    return getSelectedWorldContinents().join("|");
+  }
+
   if (!isLanguageCodexDeck(deck)) {
     return "all";
   }
@@ -1153,6 +1201,10 @@ function languageFilterSignature(deck) {
 
 function isLanguageCodexDeck(deck) {
   return deck?.id === "fr-nl-codex" || deck?.id === "en-nl-codex";
+}
+
+function isWorldCountriesDeck(deck) {
+  return deck?.id === WORLD_DECK_ID;
 }
 
 function flipCard() {
@@ -1311,12 +1363,18 @@ function firstDifferenceIndex(left, right) {
 }
 
 function normalizeAnswer(value) {
-  return String(value || "")
+  const text = String(value || "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[-–—]/g, " ")
-    .replace(/[.,]/g, ".")
+    .toLowerCase();
+
+  if (/^\s*-?\d+([,.]\d+)?\s*$/.test(text)) {
+    return text.replace(",", ".").trim();
+  }
+
+  return text
+    .replace(/[-\u2013\u2014/]/g, " ")
+    .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -1552,7 +1610,7 @@ function countTimedAnswer(card, isKnown) {
     timer.missed += 1;
   }
 
-  if (timer.correctIds.size >= deck.cards.length) {
+  if (timer.correctIds.size >= timerTargetCount(deck)) {
     stopTimer();
     showEndMessage(deck);
   } else {
@@ -1574,7 +1632,7 @@ function renderTimer() {
   }
 
   const deck = getActiveDeck();
-  const total = deck ? deck.cards.length : 0;
+  const total = deck ? timerTargetCount(deck) : 0;
   const isCurrentDeckTimer = deck && timer.deckId === deck.id;
   const correct = isCurrentDeckTimer ? timer.correctAnswers : 0;
   const attempts = isCurrentDeckTimer ? timer.answered : 0;
@@ -1590,7 +1648,7 @@ function renderTimer() {
 }
 
 function showEndMessage(deck) {
-  const total = deck.cards.length;
+  const total = timerTargetCount(deck);
   const time = formatTime(timer.elapsedMs);
   const message = [
     "Einde!",
@@ -1602,6 +1660,10 @@ function showEndMessage(deck) {
   ].join("\n");
   window.alert(message);
   showToast(`Einde: ${timer.correctAnswers}/${timer.answered} in ${time}.`);
+}
+
+function timerTargetCount(deck) {
+  return getStudyCardIndices(deck).length;
 }
 
 function formatTime(milliseconds) {
@@ -1870,6 +1932,11 @@ function renderSettings() {
 
   els.frCategorySelect.value = state.settings?.frCategory || "all";
   els.frLevelSelect.value = state.settings?.frLevel || "all";
+
+  const selectedContinents = getSelectedWorldContinents();
+  els.worldContinentInputs.forEach((input) => {
+    input.checked = selectedContinents.includes(input.value);
+  });
 }
 
 function saveSettings(event) {
@@ -1908,6 +1975,15 @@ function saveSettings(event) {
     state.settings = normalizeSettings({ ...state.settings, frLevel: event.target.value });
     study.signature = "";
     showToast("Taal-leerjaar aangepast.");
+  }
+
+  if (event.target.name === "worldContinent") {
+    const worldContinents = els.worldContinentInputs
+      .filter((input) => input.checked)
+      .map((input) => input.value);
+    state.settings = normalizeSettings({ ...state.settings, worldContinents });
+    study.signature = "";
+    showToast("Werelddelen aangepast.");
   }
 
   saveState();
@@ -2537,9 +2613,34 @@ function cleanStaticLibraryState(libraryState) {
 }
 
 function staticLibrarySignature(libraryState) {
-  return libraryState.decks
-    .map((deck) => `${deck.id}:${deck.title}:${deck.cards.length}`)
-    .join("|");
+  const signatureSource = libraryState.decks.map((deck) => ({
+    id: deck.id,
+    title: deck.title,
+    description: deck.description,
+    cards: deck.cards.map((card) => ({
+      id: card.id,
+      front: card.front,
+      back: card.back,
+      tags: card.tags,
+      frontImage: card.frontImage,
+      backImage: card.backImage,
+      zoomImages: card.zoomImages,
+      frontAudio: card.frontAudio,
+      backAudio: card.backAudio,
+      cardType: card.cardType,
+      answerFields: card.answerFields
+    }))
+  }));
+  return hashText(JSON.stringify(signatureSource));
+}
+
+function hashText(value) {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0).toString(16);
 }
 
 function isDefaultStarterState() {

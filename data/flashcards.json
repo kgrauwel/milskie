@@ -37229,6 +37229,7 @@
               "label": "Hoofdstad",
               "value": "Dhaka",
               "aliases": [
+                "Dacca",
                 "Dhaka"
               ]
             }
@@ -37390,7 +37391,8 @@
               "label": "Hoofdstad",
               "value": "Thimphu",
               "aliases": [
-                "Thimphu"
+                "Thimphu",
+                "Timphu"
               ]
             }
           ],
@@ -38885,7 +38887,8 @@
               "label": "Hoofdstad",
               "value": "Tbilisi",
               "aliases": [
-                "Tbilisi"
+                "Tbilisi",
+                "Tiflis"
               ]
             }
           ],
@@ -38977,7 +38980,7 @@
         {
           "id": "wereld-land-gtm",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Guatemala\nHoofdstad: Guatemala City",
+          "back": "Land: Guatemala\nHoofdstad: Guatemala-Stad",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, North America",
           "frontImage": "./images/wereld-landen/gtm-guatemala-regio.svg",
           "backImage": "",
@@ -39001,9 +39004,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Guatemala City",
+              "value": "Guatemala-Stad",
               "aliases": [
-                "Guatemala City"
+                "Guatemala City",
+                "Guatemala-Stad"
               ]
             }
           ],
@@ -39335,7 +39339,7 @@
         {
           "id": "wereld-land-ind",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: India\nHoofdstad: New Delhi",
+          "back": "Land: India\nHoofdstad: Nieuw-Delhi",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/ind-india-regio.svg",
           "backImage": "",
@@ -39362,9 +39366,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "New Delhi",
+              "value": "Nieuw-Delhi",
               "aliases": [
-                "New Delhi"
+                "New Delhi",
+                "Nieuw-Delhi"
               ]
             }
           ],
@@ -39699,7 +39704,7 @@
         {
           "id": "wereld-land-yem",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Jemen\nHoofdstad: Sana'a",
+          "back": "Land: Jemen\nHoofdstad: Sanaa",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/yem-jemen-regio.svg",
           "backImage": "",
@@ -39726,9 +39731,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Sana'a",
+              "value": "Sanaa",
               "aliases": [
-                "Sana'a"
+                "Sana'a",
+                "Sanaa"
               ]
             }
           ],
@@ -39906,7 +39912,7 @@
         {
           "id": "wereld-land-kgz",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Kirgizië\nHoofdstad: Bishkek",
+          "back": "Land: Kirgizië\nHoofdstad: Bisjkek",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/kgz-kirgizi-regio.svg",
           "backImage": "",
@@ -39934,9 +39940,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Bishkek",
+              "value": "Bisjkek",
               "aliases": [
-                "Bishkek"
+                "Bishkek",
+                "Bisjkek"
               ]
             }
           ],
@@ -39948,7 +39955,7 @@
         {
           "id": "wereld-land-kwt",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Koeweit\nHoofdstad: Kuwait City",
+          "back": "Land: Koeweit\nHoofdstad: Koeweit-Stad",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/kwt-koeweit-regio.svg",
           "backImage": "",
@@ -39974,8 +39981,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Kuwait City",
+              "value": "Koeweit-Stad",
               "aliases": [
+                "Koeweit-Stad",
                 "Kuwait City"
               ]
             }
@@ -40668,7 +40676,7 @@
         {
           "id": "wereld-land-mng",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Mongolië\nHoofdstad: Ulan Bator",
+          "back": "Land: Mongolië\nHoofdstad: Ulaanbaatar",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/mng-mongoli-regio.svg",
           "backImage": "",
@@ -40692,8 +40700,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Ulan Bator",
+              "value": "Ulaanbaatar",
               "aliases": [
+                "Oelan-Bator",
+                "Ulaanbaatar",
                 "Ulan Bator"
               ]
             }
@@ -40801,6 +40811,7 @@
               "label": "Land",
               "value": "Myanmar",
               "aliases": [
+                "Birma",
                 "Burma",
                 "MM",
                 "Pyidaunzu Thanmăda Myăma Nainngandaw",
@@ -40811,6 +40822,7 @@
               "label": "Hoofdstad",
               "value": "Naypyidaw",
               "aliases": [
+                "Nay Pyi Taw",
                 "Naypyidaw"
               ]
             }
@@ -41122,6 +41134,7 @@
                 "Dem. Rep. Korea",
                 "Democratic People's Republic of Korea",
                 "KP",
+                "Korea Noord",
                 "Korea, Democratic People's Republic of",
                 "North Korea",
                 "북조선",
@@ -41133,6 +41146,7 @@
               "label": "Hoofdstad",
               "value": "Pyongyang",
               "aliases": [
+                "Pjongjang",
                 "Pyongyang"
               ]
             }
@@ -41166,6 +41180,8 @@
                 "MK",
                 "Macedonia",
                 "Macedonia, The Former Yugoslav Republic of",
+                "Macedonië",
+                "Noord Macedonie",
                 "North Macedonia",
                 "Republic of North Macedonia",
                 "The former Yugoslav Republic of Macedonia",
@@ -41311,7 +41327,7 @@
         {
           "id": "wereld-land-uzb",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Oezbekistan\nHoofdstad: Tashkent",
+          "back": "Land: Oezbekistan\nHoofdstad: Tasjkent",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/uzb-oezbekistan-regio.svg",
           "backImage": "",
@@ -41338,9 +41354,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Tashkent",
+              "value": "Tasjkent",
               "aliases": [
-                "Tashkent"
+                "Tashkent",
+                "Tasjkent"
               ]
             }
           ],
@@ -41415,6 +41432,7 @@
                 "Repúblika Demokrátika Timór-Leste",
                 "TL",
                 "Timor",
+                "Timor Leste",
                 "Timor Lorosae",
                 "Timor-Leste",
                 "Timór Lorosa'e"
@@ -42490,7 +42508,7 @@
         {
           "id": "wereld-land-tjk",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Tadzjikistan\nHoofdstad: Dushanbe",
+          "back": "Land: Tadzjikistan\nHoofdstad: Doesjanbe",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/tjk-tadzjikistan-regio.svg",
           "backImage": "",
@@ -42518,8 +42536,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Dushanbe",
+              "value": "Doesjanbe",
               "aliases": [
+                "Doesjanbe",
                 "Dushanbe"
               ]
             }
@@ -42693,7 +42712,7 @@
         {
           "id": "wereld-land-tcd",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Tsjaad\nHoofdstad: N'Djamena",
+          "back": "Land: Tsjaad\nHoofdstad: Ndjamena",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/tcd-tsjaad-regio.svg",
           "backImage": "",
@@ -42720,9 +42739,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "N'Djamena",
+              "value": "Ndjamena",
               "aliases": [
-                "N'Djamena"
+                "N'Djamena",
+                "Ndjamena"
               ]
             }
           ],
@@ -42755,6 +42775,7 @@
                 "CZ",
                 "Czech Republic",
                 "Czechia",
+                "Tsjechische Republiek",
                 "Česko",
                 "Česká republika"
               ]
@@ -42860,7 +42881,7 @@
         {
           "id": "wereld-land-tkm",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Turkmenistan\nHoofdstad: Ashgabat",
+          "back": "Land: Turkmenistan\nHoofdstad: Asjchabad",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/tkm-turkmenistan-regio.svg",
           "backImage": "",
@@ -42883,9 +42904,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Ashgabat",
+              "value": "Asjchabad",
               "aliases": [
-                "Ashgabat"
+                "Ashgabat",
+                "Asjchabad"
               ]
             }
           ],
@@ -43036,9 +43058,12 @@
               "aliases": [
                 "GB",
                 "Great Britain",
+                "Groot Brittannie",
+                "Groot-Brittannië",
                 "UK",
                 "United Kingdom",
-                "United Kingdom of Great Britain and Northern Ireland"
+                "United Kingdom of Great Britain and Northern Ireland",
+                "VK"
               ]
             },
             {
@@ -43079,7 +43104,8 @@
                 "AE",
                 "Emirates",
                 "UAE",
-                "United Arab Emirates"
+                "United Arab Emirates",
+                "VAE"
               ]
             },
             {
@@ -43117,10 +43143,12 @@
               "label": "Land",
               "value": "Verenigde Staten",
               "aliases": [
+                "Amerika",
                 "US",
                 "USA",
                 "United States",
                 "United States of America",
+                "VS",
                 "Verenigde Staten van Amerika"
               ]
             },
@@ -43128,7 +43156,9 @@
               "label": "Hoofdstad",
               "value": "Washington D.C.",
               "aliases": [
-                "Washington D.C."
+                "Washington",
+                "Washington D.C.",
+                "Washington, D.C."
               ]
             }
           ],
@@ -43168,7 +43198,8 @@
               "label": "Hoofdstad",
               "value": "Hanoi",
               "aliases": [
-                "Hanoi"
+                "Hanoi",
+                "Hanoï"
               ]
             }
           ],
@@ -43320,7 +43351,8 @@
                 "Republic of South Africa",
                 "South Africa",
                 "Suid-Afrika",
-                "ZA"
+                "ZA",
+                "Zuid Afrika"
               ]
             },
             {
@@ -43361,8 +43393,10 @@
               "value": "Zuid-Korea",
               "aliases": [
                 "KR",
+                "Korea Zuid",
                 "Korea, Republic of",
                 "Republic of Korea",
+                "Republiek Korea",
                 "South Korea",
                 "남조선",
                 "남한"
@@ -43495,7 +43529,9 @@
               "label": "Hoofdstad",
               "value": "Bern",
               "aliases": [
-                "Bern"
+                "Bern",
+                "Bern/Berne",
+                "Berne"
               ]
             }
           ],

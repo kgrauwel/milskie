@@ -691,6 +691,30 @@ textarea {
   grid-template-columns: repeat(2, minmax(180px, 1fr));
 }
 
+.checkbox-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+}
+
+.checkbox-grid label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 9px 12px;
+  background: #ffffff;
+  font-weight: 800;
+}
+
+.checkbox-grid input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--green);
+}
+
 select {
   width: 100%;
   min-height: 44px;
@@ -932,7 +956,8 @@ select {
   .answer-panel,
   .typed-answer-fields,
   .math-options,
-  .filter-grid {
+  .filter-grid,
+  .checkbox-grid {
     grid-template-columns: 1fr;
   }
 
