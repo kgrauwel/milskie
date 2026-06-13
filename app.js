@@ -1,5 +1,5 @@
 const STORAGE_KEY = "flashcards.app.v1";
-const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v1";
+const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v2";
 const STATIC_LIBRARY_URL = "./data/flashcards.json";
 const COLORS = ["#146c65", "#315c9b", "#c2563d", "#2f7d4f", "#b7791f", "#6f4e7c"];
 
@@ -2482,17 +2482,55 @@ function mergeStaticLibrary(libraryState) {
     return true;
   }
 
-  const existingDeckIds = new Set(state.decks.map((deck) => deck.id));
-  const missingDecks = libraryState.decks.filter((deck) => !existingDeckIds.has(deck.id));
-  if (!missingDecks.length) {
+  let changed = false;
+  libraryState.decks.forEach((libraryDeck) => {
+    const existingIndex = state.decks.findIndex((deck) => deck.id === libraryDeck.id);
+    if (existingIndex === -1) {
+      state.decks.push(libraryDeck);
+      changed = true;
+      return;
+    }
+
+    const mergedDeck = mergeLibraryDeck(state.decks[existingIndex], libraryDeck);
+    if (JSON.stringify(state.decks[existingIndex]) !== JSON.stringify(mergedDeck)) {
+      state.decks[existingIndex] = mergedDeck;
+      changed = true;
+    }
+  });
+
+  if (!changed) {
     return false;
   }
 
-  state.decks.push(...missingDecks);
   if (!state.decks.some((deck) => deck.id === state.activeDeckId)) {
     state.activeDeckId = state.decks[0].id;
   }
   return true;
+}
+
+function mergeLibraryDeck(existingDeck, libraryDeck) {
+  const existingCardsById = new Map(existingDeck.cards.map((card) => [card.id, card]));
+  const libraryCardIds = new Set(libraryDeck.cards.map((card) => card.id));
+  const mergedCards = libraryDeck.cards.map((libraryCard) => {
+    const existingCard = existingCardsById.get(libraryCard.id);
+    if (!existingCard) {
+      return libraryCard;
+    }
+
+    return {
+      ...libraryCard,
+      correct: existingCard.correct || 0,
+      again: existingCard.again || 0,
+      reviewed: existingCard.reviewed || 0,
+      lastReviewed: existingCard.lastReviewed || ""
+    };
+  });
+
+  const extraCards = existingDeck.cards.filter((card) => !libraryCardIds.has(card.id));
+  return {
+    ...libraryDeck,
+    cards: [...mergedCards, ...extraCards]
+  };
 }
 
 function canUseServerSync() {

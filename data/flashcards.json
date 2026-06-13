@@ -7806,7 +7806,7 @@
         },
         {
           "id": "en-codex-words-6e-leerjaar-les-6-01",
-          "front": "BelgiÃ«",
+          "front": "België",
           "back": "Belgium",
           "tags": "EN-NL, vocabulaire, 6e Leerjaar, Les 6, Les 6 - countries",
           "frontImage": "",
@@ -7920,7 +7920,7 @@
         },
         {
           "id": "en-codex-words-6e-leerjaar-les-6-07",
-          "front": "ItaliÃ«",
+          "front": "Italië",
           "back": "Italy",
           "tags": "EN-NL, vocabulaire, 6e Leerjaar, Les 6, Les 6 - countries",
           "frontImage": "",
@@ -13468,7 +13468,7 @@
         },
         {
           "id": "en-codex-words-5e-aso-les-5-09",
-          "front": "beÃ¯nvloeden",
+          "front": "beïnvloeden",
           "back": "to influence",
           "tags": "EN-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technology",
           "frontImage": "",
@@ -13487,7 +13487,7 @@
         },
         {
           "id": "en-codex-words-5e-aso-les-5-10",
-          "front": "efficiÃ«nt",
+          "front": "efficiënt",
           "back": "efficient",
           "tags": "EN-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technology",
           "frontImage": "",
@@ -17803,7 +17803,7 @@
     {
       "id": "fr-nl-codex",
       "title": "FR-NL Codex",
-      "description": "Starter-oefenset Frans-Nederlands met filters voor woorden, werkwoorden en leerjaar. Geen officiÃ«le schoolmethode-lijst.",
+      "description": "Starter-oefenset Frans-Nederlands met filters voor woorden, werkwoorden en leerjaar. Geen officiële schoolmethode-lijst.",
       "color": "#315c9b",
       "cards": [
         {
@@ -17885,7 +17885,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-1-05",
           "front": "alstublieft",
-          "back": "s'il vous plaÃ®t",
+          "back": "s'il vous plaît",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 1, Les 1 - begroeten",
           "frontImage": "",
           "backImage": "",
@@ -18151,7 +18151,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-3-03",
           "front": "broer",
-          "back": "le frÃ¨re",
+          "back": "le frère",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 3, Les 3 - familie en dieren",
           "frontImage": "",
           "backImage": "",
@@ -18170,7 +18170,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-3-04",
           "front": "zus",
-          "back": "la sÅ“ur",
+          "back": "la sœur",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 3, Les 3 - familie en dieren",
           "frontImage": "",
           "backImage": "",
@@ -18265,7 +18265,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-4-01",
           "front": "de juf",
-          "back": "la maÃ®tresse",
+          "back": "la maîtresse",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 4, Les 4 - klaswoorden",
           "frontImage": "",
           "backImage": "",
@@ -18284,7 +18284,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-4-02",
           "front": "de meester",
-          "back": "le maÃ®tre",
+          "back": "le maître",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 4, Les 4 - klaswoorden",
           "frontImage": "",
           "backImage": "",
@@ -18474,7 +18474,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-4-12",
           "front": "dicht",
-          "back": "fermÃ©",
+          "back": "fermé",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 4, Les 4 - klaswoorden",
           "frontImage": "",
           "backImage": "",
@@ -18512,7 +18512,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-5-02",
           "front": "de pop",
-          "back": "la poupÃ©e",
+          "back": "la poupée",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 5, Les 5 - spelen",
           "frontImage": "",
           "backImage": "",
@@ -18702,7 +18702,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-5-12",
           "front": "moe",
-          "back": "fatiguÃ©",
+          "back": "fatigué",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 5, Les 5 - spelen",
           "frontImage": "",
           "backImage": "",
@@ -18740,7 +18740,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-6-02",
           "front": "het raam",
-          "back": "la fenÃªtre",
+          "back": "la fenêtre",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 6, Les 6 - thuis",
           "frontImage": "",
           "backImage": "",
@@ -18930,7 +18930,7 @@
         {
           "id": "fr-codex-words-1e-leerjaar-les-6-12",
           "front": "wakker",
-          "back": "rÃ©veillÃ©",
+          "back": "réveillé",
           "tags": "FR-NL, vocabulaire, 1e Leerjaar, Les 6, Les 6 - thuis",
           "frontImage": "",
           "backImage": "",
@@ -18949,7 +18949,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-1-01",
           "front": "de school",
-          "back": "l'Ã©cole",
+          "back": "l'école",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 1, Les 1 - school",
           "frontImage": "",
           "backImage": "",
@@ -19082,7 +19082,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-1-08",
           "front": "luisteren",
-          "back": "Ã©couter",
+          "back": "écouter",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 1, Les 1 - school",
           "frontImage": "",
           "backImage": "",
@@ -19101,7 +19101,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-2-01",
           "front": "het hoofd",
-          "back": "la tÃªte",
+          "back": "la tête",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 2, Les 2 - lichaam",
           "frontImage": "",
           "backImage": "",
@@ -19120,7 +19120,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-2-02",
           "front": "het oog",
-          "back": "l'Å“il",
+          "back": "l'œil",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 2, Les 2 - lichaam",
           "frontImage": "",
           "backImage": "",
@@ -19766,7 +19766,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-5-08",
           "front": "vierkant",
-          "back": "carrÃ©",
+          "back": "carré",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 5, Les 5 - getallen en vormen",
           "frontImage": "",
           "backImage": "",
@@ -19880,7 +19880,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-6-02",
           "front": "sorry",
-          "back": "dÃ©solÃ©",
+          "back": "désolé",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 6, Les 6 - beleefd spreken",
           "frontImage": "",
           "backImage": "",
@@ -19937,7 +19937,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-6-05",
           "front": "hoe gaat het?",
-          "back": "comment Ã§a va ?",
+          "back": "comment ça va ?",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 6, Les 6 - beleefd spreken",
           "frontImage": "",
           "backImage": "",
@@ -19956,7 +19956,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-6-06",
           "front": "het gaat goed",
-          "back": "Ã§a va bien",
+          "back": "ça va bien",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 6, Les 6 - beleefd spreken",
           "frontImage": "",
           "backImage": "",
@@ -19975,7 +19975,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-6-07",
           "front": "tot morgen",
-          "back": "Ã  demain",
+          "back": "à demain",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 6, Les 6 - beleefd spreken",
           "frontImage": "",
           "backImage": "",
@@ -20070,7 +20070,7 @@
         {
           "id": "fr-codex-words-2e-leerjaar-les-6-12",
           "front": "natuurlijk",
-          "back": "bien sÃ»r",
+          "back": "bien sûr",
           "tags": "FR-NL, vocabulaire, 2e Leerjaar, Les 6, Les 6 - beleefd spreken",
           "frontImage": "",
           "backImage": "",
@@ -20165,7 +20165,7 @@
         {
           "id": "fr-codex-words-3e-leerjaar-les-1-05",
           "front": "het venster",
-          "back": "la fenÃªtre",
+          "back": "la fenêtre",
           "tags": "FR-NL, vocabulaire, 3e Leerjaar, Les 1, Les 1 - huis",
           "frontImage": "",
           "backImage": "",
@@ -20602,7 +20602,7 @@
         {
           "id": "fr-codex-words-3e-leerjaar-les-4-04",
           "front": "het bos",
-          "back": "la forÃªt",
+          "back": "la forêt",
           "tags": "FR-NL, vocabulaire, 3e Leerjaar, Les 4, Les 4 - natuur",
           "frontImage": "",
           "backImage": "",
@@ -20640,7 +20640,7 @@
         {
           "id": "fr-codex-words-3e-leerjaar-les-4-06",
           "front": "de rivier",
-          "back": "la riviÃ¨re",
+          "back": "la rivière",
           "tags": "FR-NL, vocabulaire, 3e Leerjaar, Les 4, Les 4 - natuur",
           "frontImage": "",
           "backImage": "",
@@ -20716,7 +20716,7 @@
         {
           "id": "fr-codex-words-3e-leerjaar-les-4-10",
           "front": "de ster",
-          "back": "l'Ã©toile",
+          "back": "l'étoile",
           "tags": "FR-NL, vocabulaire, 3e Leerjaar, Les 4, Les 4 - natuur",
           "frontImage": "",
           "backImage": "",
@@ -20925,7 +20925,7 @@
         {
           "id": "fr-codex-words-3e-leerjaar-les-5-09",
           "front": "lekker",
-          "back": "dÃ©licieux",
+          "back": "délicieux",
           "tags": "FR-NL, vocabulaire, 3e Leerjaar, Les 5, Les 5 - eten en smaak",
           "frontImage": "",
           "backImage": "",
@@ -20944,7 +20944,7 @@
         {
           "id": "fr-codex-words-3e-leerjaar-les-5-10",
           "front": "zoet",
-          "back": "sucrÃ©",
+          "back": "sucré",
           "tags": "FR-NL, vocabulaire, 3e Leerjaar, Les 5, Les 5 - eten en smaak",
           "frontImage": "",
           "backImage": "",
@@ -20963,7 +20963,7 @@
         {
           "id": "fr-codex-words-3e-leerjaar-les-5-11",
           "front": "zout",
-          "back": "salÃ©",
+          "back": "salé",
           "tags": "FR-NL, vocabulaire, 3e Leerjaar, Les 5, Les 5 - eten en smaak",
           "frontImage": "",
           "backImage": "",
@@ -21305,7 +21305,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-1-05",
           "front": "de markt",
-          "back": "le marchÃ©",
+          "back": "le marché",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 1, Les 1 - stad",
           "frontImage": "",
           "backImage": "",
@@ -21324,7 +21324,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-1-06",
           "front": "de kerk",
-          "back": "l'Ã©glise",
+          "back": "l'église",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 1, Les 1 - stad",
           "frontImage": "",
           "backImage": "",
@@ -21343,7 +21343,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-1-07",
           "front": "links",
-          "back": "Ã  gauche",
+          "back": "à gauche",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 1, Les 1 - stad",
           "frontImage": "",
           "backImage": "",
@@ -21362,7 +21362,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-1-08",
           "front": "rechts",
-          "back": "Ã  droite",
+          "back": "à droite",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 1, Les 1 - stad",
           "frontImage": "",
           "backImage": "",
@@ -21381,7 +21381,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-2-01",
           "front": "de fiets",
-          "back": "le vÃ©lo",
+          "back": "le vélo",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 2, Les 2 - vervoer",
           "frontImage": "",
           "backImage": "",
@@ -21704,7 +21704,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-4-02",
           "front": "achter",
-          "back": "derriÃ¨re",
+          "back": "derrière",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 4, Les 4 - richting en plaats",
           "frontImage": "",
           "backImage": "",
@@ -21723,7 +21723,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-4-03",
           "front": "naast",
-          "back": "Ã  cÃ´tÃ© de",
+          "back": "à côté de",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 4, Les 4 - richting en plaats",
           "frontImage": "",
           "backImage": "",
@@ -21818,7 +21818,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-4-08",
           "front": "dichtbij",
-          "back": "prÃ¨s de",
+          "back": "près de",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 4, Les 4 - richting en plaats",
           "frontImage": "",
           "backImage": "",
@@ -21894,7 +21894,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-4-12",
           "front": "daar",
-          "back": "lÃ ",
+          "back": "là",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 4, Les 4 - richting en plaats",
           "frontImage": "",
           "backImage": "",
@@ -21932,7 +21932,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-5-02",
           "front": "het hotel",
-          "back": "l'hÃ´tel",
+          "back": "l'hôtel",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 5, Les 5 - vakantie",
           "frontImage": "",
           "backImage": "",
@@ -22122,7 +22122,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-5-12",
           "front": "zonnig",
-          "back": "ensoleillÃ©",
+          "back": "ensoleillé",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 5, Les 5 - vakantie",
           "frontImage": "",
           "backImage": "",
@@ -22179,7 +22179,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-6-03",
           "front": "boos",
-          "back": "fÃ¢chÃ©",
+          "back": "fâché",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 6, Les 6 - gevoelens",
           "frontImage": "",
           "backImage": "",
@@ -22350,7 +22350,7 @@
         {
           "id": "fr-codex-words-4e-leerjaar-les-6-12",
           "front": "antwoorden",
-          "back": "rÃ©pondre",
+          "back": "répondre",
           "tags": "FR-NL, vocabulaire, 4e Leerjaar, Les 6, Les 6 - gevoelens",
           "frontImage": "",
           "backImage": "",
@@ -22426,7 +22426,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-1-04",
           "front": "ik woon in",
-          "back": "j'habite Ã ",
+          "back": "j'habite à",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 1, Les 1 - jezelf voorstellen",
           "frontImage": "",
           "backImage": "",
@@ -22464,7 +22464,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-1-06",
           "front": "mijn leeftijd",
-          "back": "mon Ã¢ge",
+          "back": "mon âge",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 1, Les 1 - jezelf voorstellen",
           "frontImage": "",
           "backImage": "",
@@ -22502,7 +22502,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-1-08",
           "front": "Nederlands",
-          "back": "nÃ©erlandais",
+          "back": "néerlandais",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 1, Les 1 - jezelf voorstellen",
           "frontImage": "",
           "backImage": "",
@@ -22559,7 +22559,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-2-03",
           "front": "de speeltijd",
-          "back": "la rÃ©crÃ©ation",
+          "back": "la récréation",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 2, Les 2 - schooldag",
           "frontImage": "",
           "backImage": "",
@@ -22616,7 +22616,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-2-06",
           "front": "schrijven",
-          "back": "Ã©crire",
+          "back": "écrire",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 2, Les 2 - schooldag",
           "frontImage": "",
           "backImage": "",
@@ -22692,7 +22692,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-3-02",
           "front": "de grootmoeder",
-          "back": "la grand-mÃ¨re",
+          "back": "la grand-mère",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 3, Les 3 - familie",
           "frontImage": "",
           "backImage": "",
@@ -22711,7 +22711,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-3-03",
           "front": "de grootvader",
-          "back": "le grand-pÃ¨re",
+          "back": "le grand-père",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 3, Les 3 - familie",
           "frontImage": "",
           "backImage": "",
@@ -22825,7 +22825,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-4-01",
           "front": "wakker worden",
-          "back": "se rÃ©veiller",
+          "back": "se réveiller",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 4, Les 4 - dagelijkse routine",
           "frontImage": "",
           "backImage": "",
@@ -22882,7 +22882,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-4-04",
           "front": "ontbijten",
-          "back": "prendre le petit-dÃ©jeuner",
+          "back": "prendre le petit-déjeuner",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 4, Les 4 - dagelijkse routine",
           "frontImage": "",
           "backImage": "",
@@ -22901,7 +22901,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-4-05",
           "front": "naar school gaan",
-          "back": "aller Ã  l'Ã©cole",
+          "back": "aller à l'école",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 4, Les 4 - dagelijkse routine",
           "frontImage": "",
           "backImage": "",
@@ -22958,7 +22958,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-4-08",
           "front": "avondeten",
-          "back": "dÃ®ner",
+          "back": "dîner",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 4, Les 4 - dagelijkse routine",
           "frontImage": "",
           "backImage": "",
@@ -23015,7 +23015,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-4-11",
           "front": "vroeg",
-          "back": "tÃ´t",
+          "back": "tôt",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 4, Les 4 - dagelijkse routine",
           "frontImage": "",
           "backImage": "",
@@ -23053,7 +23053,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-5-01",
           "front": "de supermarkt",
-          "back": "le supermarchÃ©",
+          "back": "le supermarché",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 5, Les 5 - boodschappen",
           "frontImage": "",
           "backImage": "",
@@ -23148,7 +23148,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-5-06",
           "front": "de korting",
-          "back": "la rÃ©duction",
+          "back": "la réduction",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 5, Les 5 - boodschappen",
           "frontImage": "",
           "backImage": "",
@@ -23357,7 +23357,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-6-05",
           "front": "het antwoord",
-          "back": "la rÃ©ponse",
+          "back": "la réponse",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 6, Les 6 - schoolwerk",
           "frontImage": "",
           "backImage": "",
@@ -23414,7 +23414,7 @@
         {
           "id": "fr-codex-words-5e-leerjaar-les-6-08",
           "front": "herhalen",
-          "back": "rÃ©pÃ©ter",
+          "back": "répéter",
           "tags": "FR-NL, vocabulaire, 5e Leerjaar, Les 6, Les 6 - schoolwerk",
           "frontImage": "",
           "backImage": "",
@@ -23585,7 +23585,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-1-05",
           "front": "op tijd",
-          "back": "Ã  l'heure",
+          "back": "à l'heure",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 1, Les 1 - tijd",
           "frontImage": "",
           "backImage": "",
@@ -23680,7 +23680,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-2-02",
           "front": "goedkoop",
-          "back": "bon marchÃ©",
+          "back": "bon marché",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 2, Les 2 - boodschappen",
           "frontImage": "",
           "backImage": "",
@@ -23832,7 +23832,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-3-02",
           "front": "moe",
-          "back": "fatiguÃ©",
+          "back": "fatigué",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 3, Les 3 - gezondheid",
           "frontImage": "",
           "backImage": "",
@@ -23851,7 +23851,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-3-03",
           "front": "de dokter",
-          "back": "le mÃ©decin",
+          "back": "le médecin",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 3, Les 3 - gezondheid",
           "frontImage": "",
           "backImage": "",
@@ -23927,7 +23927,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-3-07",
           "front": "geneesmiddel",
-          "back": "le mÃ©dicament",
+          "back": "le médicament",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 3, Les 3 - gezondheid",
           "frontImage": "",
           "backImage": "",
@@ -23946,7 +23946,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-3-08",
           "front": "gezond",
-          "back": "en bonne santÃ©",
+          "back": "en bonne santé",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 3, Les 3 - gezondheid",
           "frontImage": "",
           "backImage": "",
@@ -24117,7 +24117,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-4-09",
           "front": "klaar zijn",
-          "back": "Ãªtre prÃªt",
+          "back": "être prêt",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 4, Les 4 - plannen",
           "frontImage": "",
           "backImage": "",
@@ -24212,7 +24212,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-5-02",
           "front": "volgens mij",
-          "back": "Ã  mon avis",
+          "back": "à mon avis",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 5, Les 5 - mening",
           "frontImage": "",
           "backImage": "",
@@ -24307,7 +24307,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-5-07",
           "front": "misschien",
-          "back": "peut-Ãªtre",
+          "back": "peut-être",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 5, Les 5 - mening",
           "frontImage": "",
           "backImage": "",
@@ -24345,7 +24345,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-5-09",
           "front": "eens zijn",
-          "back": "Ãªtre d'accord",
+          "back": "être d'accord",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 5, Les 5 - mening",
           "frontImage": "",
           "backImage": "",
@@ -24364,7 +24364,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-5-10",
           "front": "niet eens zijn",
-          "back": "ne pas Ãªtre d'accord",
+          "back": "ne pas être d'accord",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 5, Les 5 - mening",
           "frontImage": "",
           "backImage": "",
@@ -24402,7 +24402,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-5-12",
           "front": "het idee",
-          "back": "l'idÃ©e",
+          "back": "l'idée",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 5, Les 5 - mening",
           "frontImage": "",
           "backImage": "",
@@ -24440,7 +24440,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-6-02",
           "front": "de luchthaven",
-          "back": "l'aÃ©roport",
+          "back": "l'aéroport",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 6, Les 6 - reizen",
           "frontImage": "",
           "backImage": "",
@@ -24497,7 +24497,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-6-05",
           "front": "de grens",
-          "back": "la frontiÃ¨re",
+          "back": "la frontière",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 6, Les 6 - reizen",
           "frontImage": "",
           "backImage": "",
@@ -24573,7 +24573,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-6-09",
           "front": "buitenland",
-          "back": "l'Ã©tranger",
+          "back": "l'étranger",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 6, Les 6 - reizen",
           "frontImage": "",
           "backImage": "",
@@ -24611,7 +24611,7 @@
         {
           "id": "fr-codex-words-6e-leerjaar-les-6-11",
           "front": "ontdekken",
-          "back": "dÃ©couvrir",
+          "back": "découvrir",
           "tags": "FR-NL, vocabulaire, 6e Leerjaar, Les 6, Les 6 - reizen",
           "frontImage": "",
           "backImage": "",
@@ -24687,7 +24687,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-1-03",
           "front": "ontbijten",
-          "back": "prendre le petit-dÃ©jeuner",
+          "back": "prendre le petit-déjeuner",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 1, Les 1 - dagelijks leven",
           "frontImage": "",
           "backImage": "",
@@ -24706,7 +24706,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-1-04",
           "front": "naar school gaan",
-          "back": "aller Ã  l'Ã©cole",
+          "back": "aller à l'école",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 1, Les 1 - dagelijks leven",
           "frontImage": "",
           "backImage": "",
@@ -24744,7 +24744,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-1-06",
           "front": "avondeten",
-          "back": "dÃ®ner",
+          "back": "dîner",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 1, Les 1 - dagelijks leven",
           "frontImage": "",
           "backImage": "",
@@ -24801,7 +24801,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-2-01",
           "front": "Frans",
-          "back": "le franÃ§ais",
+          "back": "le français",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 2, Les 2 - schoolvakken",
           "frontImage": "",
           "backImage": "",
@@ -24820,7 +24820,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-2-02",
           "front": "wiskunde",
-          "back": "les mathÃ©matiques",
+          "back": "les mathématiques",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 2, Les 2 - schoolvakken",
           "frontImage": "",
           "backImage": "",
@@ -24858,7 +24858,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-2-04",
           "front": "aardrijkskunde",
-          "back": "la gÃ©ographie",
+          "back": "la géographie",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 2, Les 2 - schoolvakken",
           "frontImage": "",
           "backImage": "",
@@ -24896,7 +24896,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-2-06",
           "front": "lichamelijke opvoeding",
-          "back": "l'Ã©ducation physique",
+          "back": "l'éducation physique",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 2, Les 2 - schoolvakken",
           "frontImage": "",
           "backImage": "",
@@ -24915,7 +24915,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-2-07",
           "front": "toets",
-          "back": "le contrÃ´le",
+          "back": "le contrôle",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 2, Les 2 - schoolvakken",
           "frontImage": "",
           "backImage": "",
@@ -25067,7 +25067,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-3-07",
           "front": "ploeg",
-          "back": "l'Ã©quipe",
+          "back": "l'équipe",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 3, Les 3 - hobby's",
           "frontImage": "",
           "backImage": "",
@@ -25485,7 +25485,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-5-09",
           "front": "eerlijk",
-          "back": "honnÃªte",
+          "back": "honnête",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 5, Les 5 - persoon beschrijven",
           "frontImage": "",
           "backImage": "",
@@ -25542,7 +25542,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-5-12",
           "front": "onrustig",
-          "back": "agitÃ©",
+          "back": "agité",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 5, Les 5 - persoon beschrijven",
           "frontImage": "",
           "backImage": "",
@@ -25580,7 +25580,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-6-02",
           "front": "het ziekenhuis",
-          "back": "l'hÃ´pital",
+          "back": "l'hôpital",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 6, Les 6 - stad en diensten",
           "frontImage": "",
           "backImage": "",
@@ -25599,7 +25599,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-6-03",
           "front": "de bibliotheek",
-          "back": "la bibliothÃ¨que",
+          "back": "la bibliothèque",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 6, Les 6 - stad en diensten",
           "frontImage": "",
           "backImage": "",
@@ -25618,7 +25618,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-6-04",
           "front": "het museum",
-          "back": "le musÃ©e",
+          "back": "le musée",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 6, Les 6 - stad en diensten",
           "frontImage": "",
           "backImage": "",
@@ -25770,7 +25770,7 @@
         {
           "id": "fr-codex-words-1e-aso-les-6-12",
           "front": "druk",
-          "back": "animÃ©",
+          "back": "animé",
           "tags": "FR-NL, vocabulaire, 1e ASO, Les 6, Les 6 - stad en diensten",
           "frontImage": "",
           "backImage": "",
@@ -25903,7 +25903,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-1-07",
           "front": "grappig",
-          "back": "drÃ´le",
+          "back": "drôle",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 1, Les 1 - beschrijven",
           "frontImage": "",
           "backImage": "",
@@ -25922,7 +25922,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-1-08",
           "front": "serieus",
-          "back": "sÃ©rieux",
+          "back": "sérieux",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 1, Les 1 - beschrijven",
           "frontImage": "",
           "backImage": "",
@@ -25960,7 +25960,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-2-02",
           "front": "de verdieping",
-          "back": "l'Ã©tage",
+          "back": "l'étage",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 2, Les 2 - wonen",
           "frontImage": "",
           "backImage": "",
@@ -26055,7 +26055,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-2-07",
           "front": "verhuizen",
-          "back": "dÃ©mÃ©nager",
+          "back": "déménager",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 2, Les 2 - wonen",
           "frontImage": "",
           "backImage": "",
@@ -26093,7 +26093,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-3-01",
           "front": "trainen",
-          "back": "s'entraÃ®ner",
+          "back": "s'entraîner",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 3, Les 3 - sport en lichaam",
           "frontImage": "",
           "backImage": "",
@@ -26264,7 +26264,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-4-02",
           "front": "het voorgerecht",
-          "back": "l'entrÃ©e",
+          "back": "l'entrée",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 4, Les 4 - restaurant",
           "frontImage": "",
           "backImage": "",
@@ -26340,7 +26340,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-4-06",
           "front": "reserveren",
-          "back": "rÃ©server",
+          "back": "réserver",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 4, Les 4 - restaurant",
           "frontImage": "",
           "backImage": "",
@@ -26378,7 +26378,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-4-08",
           "front": "proeven",
-          "back": "goÃ»ter",
+          "back": "goûter",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 4, Les 4 - restaurant",
           "frontImage": "",
           "backImage": "",
@@ -26435,7 +26435,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-4-11",
           "front": "gekruid",
-          "back": "Ã©picÃ©",
+          "back": "épicé",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 4, Les 4 - restaurant",
           "frontImage": "",
           "backImage": "",
@@ -26663,7 +26663,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-5-11",
           "front": "trouw",
-          "back": "fidÃ¨le",
+          "back": "fidèle",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 5, Les 5 - relaties",
           "frontImage": "",
           "backImage": "",
@@ -26739,7 +26739,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-6-03",
           "front": "genezen",
-          "back": "guÃ©rir",
+          "back": "guérir",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 6, Les 6 - gezondheid en sport",
           "frontImage": "",
           "backImage": "",
@@ -26815,7 +26815,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-6-07",
           "front": "de koorts",
-          "back": "la fiÃ¨vre",
+          "back": "la fièvre",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 6, Les 6 - gezondheid en sport",
           "frontImage": "",
           "backImage": "",
@@ -26853,7 +26853,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-6-09",
           "front": "de wedstrijd",
-          "back": "la compÃ©tition",
+          "back": "la compétition",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 6, Les 6 - gezondheid en sport",
           "frontImage": "",
           "backImage": "",
@@ -26872,7 +26872,7 @@
         {
           "id": "fr-codex-words-2e-aso-les-6-10",
           "front": "de training",
-          "back": "l'entraÃ®nement",
+          "back": "l'entraînement",
           "tags": "FR-NL, vocabulaire, 2e ASO, Les 6, Les 6 - gezondheid en sport",
           "frontImage": "",
           "backImage": "",
@@ -26986,7 +26986,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-1-04",
           "front": "het scherm",
-          "back": "l'Ã©cran",
+          "back": "l'écran",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 1, Les 1 - media",
           "frontImage": "",
           "backImage": "",
@@ -27005,7 +27005,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-1-05",
           "front": "downloaden",
-          "back": "tÃ©lÃ©charger",
+          "back": "télécharger",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 1, Les 1 - media",
           "frontImage": "",
           "backImage": "",
@@ -27119,7 +27119,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-2-03",
           "front": "boos",
-          "back": "fÃ¢chÃ©",
+          "back": "fâché",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 2, Les 2 - gevoelens",
           "frontImage": "",
           "backImage": "",
@@ -27138,7 +27138,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-2-04",
           "front": "bang",
-          "back": "effrayÃ©",
+          "back": "effrayé",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 2, Les 2 - gevoelens",
           "frontImage": "",
           "backImage": "",
@@ -27214,7 +27214,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-2-08",
           "front": "zich zorgen maken",
-          "back": "s'inquiÃ©ter",
+          "back": "s'inquiéter",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 2, Les 2 - gevoelens",
           "frontImage": "",
           "backImage": "",
@@ -27252,7 +27252,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-3-02",
           "front": "afval",
-          "back": "les dÃ©chets",
+          "back": "les déchets",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 3, Les 3 - milieu",
           "frontImage": "",
           "backImage": "",
@@ -27290,7 +27290,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-3-04",
           "front": "besparen",
-          "back": "Ã©conomiser",
+          "back": "économiser",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 3, Les 3 - milieu",
           "frontImage": "",
           "backImage": "",
@@ -27309,7 +27309,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-3-05",
           "front": "hergebruiken",
-          "back": "rÃ©utiliser",
+          "back": "réutiliser",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 3, Les 3 - milieu",
           "frontImage": "",
           "backImage": "",
@@ -27328,7 +27328,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-3-06",
           "front": "beschermen",
-          "back": "protÃ©ger",
+          "back": "protéger",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 3, Les 3 - milieu",
           "frontImage": "",
           "backImage": "",
@@ -27385,7 +27385,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-4-01",
           "front": "de leerling",
-          "back": "l'Ã©lÃ¨ve",
+          "back": "l'élève",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 4, Les 4 - onderwijs",
           "frontImage": "",
           "backImage": "",
@@ -27442,7 +27442,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-4-04",
           "front": "het vak",
-          "back": "la matiÃ¨re",
+          "back": "la matière",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 4, Les 4 - onderwijs",
           "frontImage": "",
           "backImage": "",
@@ -27499,7 +27499,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-4-07",
           "front": "slagen",
-          "back": "rÃ©ussir",
+          "back": "réussir",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 4, Les 4 - onderwijs",
           "frontImage": "",
           "backImage": "",
@@ -27518,7 +27518,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-4-08",
           "front": "mislukken",
-          "back": "Ã©chouer",
+          "back": "échouer",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 4, Les 4 - onderwijs",
           "frontImage": "",
           "backImage": "",
@@ -27537,7 +27537,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-4-09",
           "front": "voorbereiden",
-          "back": "prÃ©parer",
+          "back": "préparer",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 4, Les 4 - onderwijs",
           "frontImage": "",
           "backImage": "",
@@ -27613,7 +27613,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-5-01",
           "front": "de regel",
-          "back": "la rÃ¨gle",
+          "back": "la règle",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 5, Les 5 - samenleving",
           "frontImage": "",
           "backImage": "",
@@ -27765,7 +27765,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-5-09",
           "front": "beslissen",
-          "back": "dÃ©cider",
+          "back": "décider",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 5, Les 5 - samenleving",
           "frontImage": "",
           "backImage": "",
@@ -27803,7 +27803,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-5-11",
           "front": "eerlijk",
-          "back": "Ã©quitable",
+          "back": "équitable",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 5, Les 5 - samenleving",
           "frontImage": "",
           "backImage": "",
@@ -27860,7 +27860,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-6-02",
           "front": "de energie",
-          "back": "l'Ã©nergie",
+          "back": "l'énergie",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 6, Les 6 - natuur en klimaat",
           "frontImage": "",
           "backImage": "",
@@ -27898,7 +27898,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-6-04",
           "front": "de droogte",
-          "back": "la sÃ©cheresse",
+          "back": "la sécheresse",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 6, Les 6 - natuur en klimaat",
           "frontImage": "",
           "backImage": "",
@@ -27936,7 +27936,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-6-06",
           "front": "de soort",
-          "back": "l'espÃ¨ce",
+          "back": "l'espèce",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 6, Les 6 - natuur en klimaat",
           "frontImage": "",
           "backImage": "",
@@ -27955,7 +27955,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-6-07",
           "front": "verdwijnen",
-          "back": "disparaÃ®tre",
+          "back": "disparaître",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 6, Les 6 - natuur en klimaat",
           "frontImage": "",
           "backImage": "",
@@ -27974,7 +27974,7 @@
         {
           "id": "fr-codex-words-3e-aso-les-6-08",
           "front": "verminderen",
-          "back": "rÃ©duire",
+          "back": "réduire",
           "tags": "FR-NL, vocabulaire, 3e ASO, Les 6, Les 6 - natuur en klimaat",
           "frontImage": "",
           "backImage": "",
@@ -28069,7 +28069,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-1-01",
           "front": "de samenleving",
-          "back": "la sociÃ©tÃ©",
+          "back": "la société",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 1, Les 1 - maatschappij",
           "frontImage": "",
           "backImage": "",
@@ -28126,7 +28126,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-1-04",
           "front": "de vrijheid",
-          "back": "la libertÃ©",
+          "back": "la liberté",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 1, Les 1 - maatschappij",
           "frontImage": "",
           "backImage": "",
@@ -28145,7 +28145,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-1-05",
           "front": "de gelijkheid",
-          "back": "l'Ã©galitÃ©",
+          "back": "l'égalité",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 1, Les 1 - maatschappij",
           "frontImage": "",
           "backImage": "",
@@ -28164,7 +28164,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-1-06",
           "front": "de verantwoordelijkheid",
-          "back": "la responsabilitÃ©",
+          "back": "la responsabilité",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 1, Les 1 - maatschappij",
           "frontImage": "",
           "backImage": "",
@@ -28240,7 +28240,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-2-02",
           "front": "het kunstwerk",
-          "back": "l'Å“uvre d'art",
+          "back": "l'œuvre d'art",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 2, Les 2 - cultuur",
           "frontImage": "",
           "backImage": "",
@@ -28259,7 +28259,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-2-03",
           "front": "de schrijver",
-          "back": "l'Ã©crivain",
+          "back": "l'écrivain",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 2, Les 2 - cultuur",
           "frontImage": "",
           "backImage": "",
@@ -28297,7 +28297,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-2-05",
           "front": "het toneelstuk",
-          "back": "la piÃ¨ce de thÃ©Ã¢tre",
+          "back": "la pièce de théâtre",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 2, Les 2 - cultuur",
           "frontImage": "",
           "backImage": "",
@@ -28392,7 +28392,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-3-02",
           "front": "het beroep",
-          "back": "le mÃ©tier",
+          "back": "le métier",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 3, Les 3 - werk",
           "frontImage": "",
           "backImage": "",
@@ -28449,7 +28449,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-3-05",
           "front": "de collega",
-          "back": "le collÃ¨gue",
+          "back": "le collègue",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 3, Les 3 - werk",
           "frontImage": "",
           "backImage": "",
@@ -28468,7 +28468,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-3-06",
           "front": "de vergadering",
-          "back": "la rÃ©union",
+          "back": "la réunion",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 3, Les 3 - werk",
           "frontImage": "",
           "backImage": "",
@@ -28487,7 +28487,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-3-07",
           "front": "vaardigheid",
-          "back": "la compÃ©tence",
+          "back": "la compétence",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 3, Les 3 - werk",
           "frontImage": "",
           "backImage": "",
@@ -28506,7 +28506,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-3-08",
           "front": "ervaring",
-          "back": "l'expÃ©rience",
+          "back": "l'expérience",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 3, Les 3 - werk",
           "frontImage": "",
           "backImage": "",
@@ -28525,7 +28525,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-4-01",
           "front": "de gebeurtenis",
-          "back": "l'Ã©vÃ©nement",
+          "back": "l'événement",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 4, Les 4 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -28563,7 +28563,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-4-03",
           "front": "de getuige",
-          "back": "le tÃ©moin",
+          "back": "le témoin",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 4, Les 4 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -28601,7 +28601,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-4-05",
           "front": "het gevolg",
-          "back": "la consÃ©quence",
+          "back": "la conséquence",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 4, Les 4 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -28677,7 +28677,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-4-09",
           "front": "reageren",
-          "back": "rÃ©agir",
+          "back": "réagir",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 4, Les 4 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -28696,7 +28696,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-4-10",
           "front": "onderzoeken",
-          "back": "enquÃªter",
+          "back": "enquêter",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 4, Les 4 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -28848,7 +28848,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-5-06",
           "front": "de regisseur",
-          "back": "le rÃ©alisateur",
+          "back": "le réalisateur",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 5, Les 5 - cultuur en kunst",
           "frontImage": "",
           "backImage": "",
@@ -28905,7 +28905,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-5-09",
           "front": "ontroeren",
-          "back": "Ã©mouvoir",
+          "back": "émouvoir",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 5, Les 5 - cultuur en kunst",
           "frontImage": "",
           "backImage": "",
@@ -28924,7 +28924,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-5-10",
           "front": "waarderen",
-          "back": "apprÃ©cier",
+          "back": "apprécier",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 5, Les 5 - cultuur en kunst",
           "frontImage": "",
           "backImage": "",
@@ -29000,7 +29000,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-6-02",
           "front": "de studie",
-          "back": "les Ã©tudes",
+          "back": "les études",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 6, Les 6 - werk en toekomst",
           "frontImage": "",
           "backImage": "",
@@ -29057,7 +29057,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-6-05",
           "front": "de verantwoordelijkheid",
-          "back": "la responsabilitÃ©",
+          "back": "la responsabilité",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 6, Les 6 - werk en toekomst",
           "frontImage": "",
           "backImage": "",
@@ -29152,7 +29152,7 @@
         {
           "id": "fr-codex-words-4e-aso-les-6-10",
           "front": "ontwikkelen",
-          "back": "dÃ©velopper",
+          "back": "développer",
           "tags": "FR-NL, vocabulaire, 4e ASO, Les 6, Les 6 - werk en toekomst",
           "frontImage": "",
           "backImage": "",
@@ -29285,7 +29285,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-1-05",
           "front": "akkoord gaan",
-          "back": "Ãªtre d'accord",
+          "back": "être d'accord",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 1, Les 1 - argumenteren",
           "frontImage": "",
           "backImage": "",
@@ -29399,7 +29399,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-2-03",
           "front": "de winst",
-          "back": "le bÃ©nÃ©fice",
+          "back": "le bénéfice",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 2, Les 2 - economie",
           "frontImage": "",
           "backImage": "",
@@ -29456,7 +29456,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-2-06",
           "front": "de markt",
-          "back": "le marchÃ©",
+          "back": "le marché",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 2, Les 2 - economie",
           "frontImage": "",
           "backImage": "",
@@ -29475,7 +29475,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-2-07",
           "front": "de reclame",
-          "back": "la publicitÃ©",
+          "back": "la publicité",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 2, Les 2 - economie",
           "frontImage": "",
           "backImage": "",
@@ -29532,7 +29532,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-3-02",
           "front": "de ontdekking",
-          "back": "la dÃ©couverte",
+          "back": "la découverte",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 3, Les 3 - wetenschap",
           "frontImage": "",
           "backImage": "",
@@ -29570,7 +29570,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-3-04",
           "front": "het gevolg",
-          "back": "la consÃ©quence",
+          "back": "la conséquence",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 3, Les 3 - wetenschap",
           "frontImage": "",
           "backImage": "",
@@ -29741,7 +29741,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-4-05",
           "front": "de stelling",
-          "back": "la thÃ¨se",
+          "back": "la thèse",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 4, Les 4 - debat",
           "frontImage": "",
           "backImage": "",
@@ -29893,7 +29893,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-5-01",
           "front": "de vooruitgang",
-          "back": "le progrÃ¨s",
+          "back": "le progrès",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technologie",
           "frontImage": "",
           "backImage": "",
@@ -29950,7 +29950,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-5-04",
           "front": "de gegevens",
-          "back": "les donnÃ©es",
+          "back": "les données",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technologie",
           "frontImage": "",
           "backImage": "",
@@ -29969,7 +29969,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-5-05",
           "front": "de veiligheid",
-          "back": "la sÃ©curitÃ©",
+          "back": "la sécurité",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technologie",
           "frontImage": "",
           "backImage": "",
@@ -29988,7 +29988,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-5-06",
           "front": "de privacy",
-          "back": "la vie privÃ©e",
+          "back": "la vie privée",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technologie",
           "frontImage": "",
           "backImage": "",
@@ -30045,7 +30045,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-5-09",
           "front": "beschermen",
-          "back": "protÃ©ger",
+          "back": "protéger",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technologie",
           "frontImage": "",
           "backImage": "",
@@ -30063,7 +30063,7 @@
         },
         {
           "id": "fr-codex-words-5e-aso-les-5-10",
-          "front": "beÃ¯nvloeden",
+          "front": "beïnvloeden",
           "back": "influencer",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technologie",
           "frontImage": "",
@@ -30101,7 +30101,7 @@
         },
         {
           "id": "fr-codex-words-5e-aso-les-5-12",
-          "front": "efficiÃ«nt",
+          "front": "efficiënt",
           "back": "efficace",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 5, Les 5 - technologie",
           "frontImage": "",
@@ -30216,7 +30216,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-6-06",
           "front": "de werkloosheid",
-          "back": "le chÃ´mage",
+          "back": "le chômage",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 6, Les 6 - economie en werk",
           "frontImage": "",
           "backImage": "",
@@ -30235,7 +30235,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-6-07",
           "front": "onderhandelen",
-          "back": "nÃ©gocier",
+          "back": "négocier",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 6, Les 6 - economie en werk",
           "frontImage": "",
           "backImage": "",
@@ -30273,7 +30273,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-6-09",
           "front": "uitgeven",
-          "back": "dÃ©penser",
+          "back": "dépenser",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 6, Les 6 - economie en werk",
           "frontImage": "",
           "backImage": "",
@@ -30292,7 +30292,7 @@
         {
           "id": "fr-codex-words-5e-aso-les-6-10",
           "front": "besparen",
-          "back": "Ã©pargner",
+          "back": "épargner",
           "tags": "FR-NL, vocabulaire, 5e ASO, Les 6, Les 6 - economie en werk",
           "frontImage": "",
           "backImage": "",
@@ -30349,7 +30349,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-1-01",
           "front": "de actualiteit",
-          "back": "l'actualitÃ©",
+          "back": "l'actualité",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 1, Les 1 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -30368,7 +30368,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-1-02",
           "front": "de verkiezing",
-          "back": "l'Ã©lection",
+          "back": "l'élection",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 1, Les 1 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -30444,7 +30444,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-1-06",
           "front": "het debat",
-          "back": "le dÃ©bat",
+          "back": "le débat",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 1, Les 1 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -30482,7 +30482,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-1-08",
           "front": "onafhankelijk",
-          "back": "indÃ©pendant",
+          "back": "indépendant",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 1, Les 1 - actualiteit",
           "frontImage": "",
           "backImage": "",
@@ -30539,7 +30539,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-2-03",
           "front": "het thema",
-          "back": "le thÃ¨me",
+          "back": "le thème",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 2, Les 2 - literatuur",
           "frontImage": "",
           "backImage": "",
@@ -30577,7 +30577,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-2-05",
           "front": "de beeldspraak",
-          "back": "la mÃ©taphore",
+          "back": "la métaphore",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 2, Les 2 - literatuur",
           "frontImage": "",
           "backImage": "",
@@ -30596,7 +30596,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-2-06",
           "front": "de samenvatting",
-          "back": "le rÃ©sumÃ©",
+          "back": "le résumé",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 2, Les 2 - literatuur",
           "frontImage": "",
           "backImage": "",
@@ -30615,7 +30615,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-2-07",
           "front": "interpreteren",
-          "back": "interprÃ©ter",
+          "back": "interpréter",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 2, Les 2 - literatuur",
           "frontImage": "",
           "backImage": "",
@@ -30634,7 +30634,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-2-08",
           "front": "ontroerend",
-          "back": "Ã©mouvant",
+          "back": "émouvant",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 2, Les 2 - literatuur",
           "frontImage": "",
           "backImage": "",
@@ -30653,7 +30653,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-3-01",
           "front": "de waarheid",
-          "back": "la vÃ©ritÃ©",
+          "back": "la vérité",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 3, Les 3 - abstracte begrippen",
           "frontImage": "",
           "backImage": "",
@@ -30748,7 +30748,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-3-06",
           "front": "de vooruitgang",
-          "back": "le progrÃ¨s",
+          "back": "le progrès",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 3, Les 3 - abstracte begrippen",
           "frontImage": "",
           "backImage": "",
@@ -30767,7 +30767,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-3-07",
           "front": "nadenken",
-          "back": "rÃ©flÃ©chir",
+          "back": "réfléchir",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 3, Les 3 - abstracte begrippen",
           "frontImage": "",
           "backImage": "",
@@ -30805,7 +30805,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-4-01",
           "front": "de vrijheid",
-          "back": "la libertÃ©",
+          "back": "la liberté",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 4, Les 4 - filosofie",
           "frontImage": "",
           "backImage": "",
@@ -30824,7 +30824,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-4-02",
           "front": "de verantwoordelijkheid",
-          "back": "la responsabilitÃ©",
+          "back": "la responsabilité",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 4, Les 4 - filosofie",
           "frontImage": "",
           "backImage": "",
@@ -30843,7 +30843,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-4-03",
           "front": "de identiteit",
-          "back": "l'identitÃ©",
+          "back": "l'identité",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 4, Les 4 - filosofie",
           "frontImage": "",
           "backImage": "",
@@ -30862,7 +30862,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-4-04",
           "front": "de herinnering",
-          "back": "la mÃ©moire",
+          "back": "la mémoire",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 4, Les 4 - filosofie",
           "frontImage": "",
           "backImage": "",
@@ -31033,7 +31033,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-5-01",
           "front": "de democratie",
-          "back": "la dÃ©mocratie",
+          "back": "la démocratie",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 5, Les 5 - politiek en recht",
           "frontImage": "",
           "backImage": "",
@@ -31147,7 +31147,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-5-07",
           "front": "verkiezen",
-          "back": "Ã©lire",
+          "back": "élire",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 5, Les 5 - politiek en recht",
           "frontImage": "",
           "backImage": "",
@@ -31185,7 +31185,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-5-09",
           "front": "verdedigen",
-          "back": "dÃ©fendre",
+          "back": "défendre",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 5, Les 5 - politiek en recht",
           "frontImage": "",
           "backImage": "",
@@ -31223,7 +31223,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-5-11",
           "front": "wettelijk",
-          "back": "lÃ©gal",
+          "back": "légal",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 5, Les 5 - politiek en recht",
           "frontImage": "",
           "backImage": "",
@@ -31261,7 +31261,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-6-01",
           "front": "de hypothese",
-          "back": "l'hypothÃ¨se",
+          "back": "l'hypothèse",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 6, Les 6 - wetenschap en onderzoek",
           "frontImage": "",
           "backImage": "",
@@ -31280,7 +31280,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-6-02",
           "front": "de methode",
-          "back": "la mÃ©thode",
+          "back": "la méthode",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 6, Les 6 - wetenschap en onderzoek",
           "frontImage": "",
           "backImage": "",
@@ -31318,7 +31318,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-6-04",
           "front": "de steekproef",
-          "back": "l'Ã©chantillon",
+          "back": "l'échantillon",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 6, Les 6 - wetenschap en onderzoek",
           "frontImage": "",
           "backImage": "",
@@ -31356,7 +31356,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-6-06",
           "front": "de nauwkeurigheid",
-          "back": "la prÃ©cision",
+          "back": "la précision",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 6, Les 6 - wetenschap en onderzoek",
           "frontImage": "",
           "backImage": "",
@@ -31394,7 +31394,7 @@
         {
           "id": "fr-codex-words-6e-aso-les-6-08",
           "front": "aantonen",
-          "back": "dÃ©montrer",
+          "back": "démontrer",
           "tags": "FR-NL, vocabulaire, 6e ASO, Les 6, Les 6 - wetenschap en onderzoek",
           "frontImage": "",
           "backImage": "",
@@ -31490,7 +31490,7 @@
           "id": "fr-codex-verbs-present-etre-01",
           "front": "ik ben",
           "back": "je suis",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31509,7 +31509,7 @@
           "id": "fr-codex-verbs-present-etre-02",
           "front": "jij bent",
           "back": "tu es",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31528,7 +31528,7 @@
           "id": "fr-codex-verbs-present-etre-03",
           "front": "hij is",
           "back": "il est",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31547,7 +31547,7 @@
           "id": "fr-codex-verbs-present-etre-04",
           "front": "wij zijn",
           "back": "nous sommes",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31565,8 +31565,8 @@
         {
           "id": "fr-codex-verbs-present-etre-05",
           "front": "jullie zijn",
-          "back": "vous Ãªtes",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, Ãªtre",
+          "back": "vous êtes",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31585,7 +31585,7 @@
           "id": "fr-codex-verbs-present-etre-06",
           "front": "zij zijn",
           "back": "ils sont",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31604,7 +31604,7 @@
           "id": "fr-codex-verbs-present-avoir-01",
           "front": "ik heb",
           "back": "j'ai",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, avoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, avoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31623,7 +31623,7 @@
           "id": "fr-codex-verbs-present-avoir-02",
           "front": "jij hebt",
           "back": "tu as",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, avoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, avoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31642,7 +31642,7 @@
           "id": "fr-codex-verbs-present-avoir-03",
           "front": "hij heeft",
           "back": "il a",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, avoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, avoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31661,7 +31661,7 @@
           "id": "fr-codex-verbs-present-avoir-04",
           "front": "wij hebben",
           "back": "nous avons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, avoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, avoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31680,7 +31680,7 @@
           "id": "fr-codex-verbs-present-avoir-05",
           "front": "jullie hebben",
           "back": "vous avez",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, avoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, avoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31699,7 +31699,7 @@
           "id": "fr-codex-verbs-present-avoir-06",
           "front": "zij hebben",
           "back": "ils ont",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, avoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, avoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31718,7 +31718,7 @@
           "id": "fr-codex-verbs-present-aller-01",
           "front": "ik ga",
           "back": "je vais",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, aller",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31737,7 +31737,7 @@
           "id": "fr-codex-verbs-present-aller-02",
           "front": "jij gaat",
           "back": "tu vas",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, aller",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31756,7 +31756,7 @@
           "id": "fr-codex-verbs-present-aller-03",
           "front": "hij gaat",
           "back": "il va",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, aller",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31775,7 +31775,7 @@
           "id": "fr-codex-verbs-present-aller-04",
           "front": "wij gaan",
           "back": "nous allons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, aller",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31794,7 +31794,7 @@
           "id": "fr-codex-verbs-present-aller-05",
           "front": "jullie gaan",
           "back": "vous allez",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, aller",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31813,7 +31813,7 @@
           "id": "fr-codex-verbs-present-aller-06",
           "front": "zij gaan",
           "back": "ils vont",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, aller",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31832,7 +31832,7 @@
           "id": "fr-codex-verbs-present-faire-01",
           "front": "ik doe",
           "back": "je fais",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31851,7 +31851,7 @@
           "id": "fr-codex-verbs-present-faire-02",
           "front": "jij doet",
           "back": "tu fais",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31870,7 +31870,7 @@
           "id": "fr-codex-verbs-present-faire-03",
           "front": "hij doet",
           "back": "il fait",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31889,7 +31889,7 @@
           "id": "fr-codex-verbs-present-faire-04",
           "front": "wij doen",
           "back": "nous faisons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31908,7 +31908,7 @@
           "id": "fr-codex-verbs-present-faire-05",
           "front": "jullie doen",
           "back": "vous faites",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31927,7 +31927,7 @@
           "id": "fr-codex-verbs-present-faire-06",
           "front": "zij doen",
           "back": "ils font",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31946,7 +31946,7 @@
           "id": "fr-codex-verbs-present-marcher-01",
           "front": "ik loop",
           "back": "je marche",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, marcher",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31965,7 +31965,7 @@
           "id": "fr-codex-verbs-present-marcher-02",
           "front": "jij loopt",
           "back": "tu marches",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, marcher",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -31984,7 +31984,7 @@
           "id": "fr-codex-verbs-present-marcher-03",
           "front": "hij loopt",
           "back": "il marche",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, marcher",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32003,7 +32003,7 @@
           "id": "fr-codex-verbs-present-marcher-04",
           "front": "wij lopen",
           "back": "nous marchons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, marcher",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32022,7 +32022,7 @@
           "id": "fr-codex-verbs-present-marcher-05",
           "front": "jullie lopen",
           "back": "vous marchez",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, marcher",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32041,7 +32041,7 @@
           "id": "fr-codex-verbs-present-marcher-06",
           "front": "zij lopen",
           "back": "ils marchent",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, marcher",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32060,7 +32060,7 @@
           "id": "fr-codex-verbs-present-finir-01",
           "front": "ik eindig",
           "back": "je finis",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, finir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, finir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32079,7 +32079,7 @@
           "id": "fr-codex-verbs-present-finir-02",
           "front": "jij eindigt",
           "back": "tu finis",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, finir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, finir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32098,7 +32098,7 @@
           "id": "fr-codex-verbs-present-finir-03",
           "front": "hij eindigt",
           "back": "il finit",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, finir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, finir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32117,7 +32117,7 @@
           "id": "fr-codex-verbs-present-finir-04",
           "front": "wij eindigen",
           "back": "nous finissons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, finir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, finir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32136,7 +32136,7 @@
           "id": "fr-codex-verbs-present-finir-05",
           "front": "jullie eindigen",
           "back": "vous finissez",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, finir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, finir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32155,7 +32155,7 @@
           "id": "fr-codex-verbs-present-finir-06",
           "front": "zij eindigen",
           "back": "ils finissent",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, finir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, finir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32174,7 +32174,7 @@
           "id": "fr-codex-verbs-present-prendre-01",
           "front": "ik neem",
           "back": "je prends",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32193,7 +32193,7 @@
           "id": "fr-codex-verbs-present-prendre-02",
           "front": "jij neemt",
           "back": "tu prends",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32212,7 +32212,7 @@
           "id": "fr-codex-verbs-present-prendre-03",
           "front": "hij neemt",
           "back": "il prend",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32231,7 +32231,7 @@
           "id": "fr-codex-verbs-present-prendre-04",
           "front": "wij nemen",
           "back": "nous prenons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32250,7 +32250,7 @@
           "id": "fr-codex-verbs-present-prendre-05",
           "front": "jullie nemen",
           "back": "vous prenez",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32269,7 +32269,7 @@
           "id": "fr-codex-verbs-present-prendre-06",
           "front": "zij nemen",
           "back": "ils prennent",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32288,7 +32288,7 @@
           "id": "fr-codex-verbs-present-pouvoir-01",
           "front": "ik kan",
           "back": "je peux",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, pouvoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, pouvoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32307,7 +32307,7 @@
           "id": "fr-codex-verbs-present-pouvoir-02",
           "front": "jij kan",
           "back": "tu peux",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, pouvoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, pouvoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32326,7 +32326,7 @@
           "id": "fr-codex-verbs-present-pouvoir-03",
           "front": "hij kan",
           "back": "il peut",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, pouvoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, pouvoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32345,7 +32345,7 @@
           "id": "fr-codex-verbs-present-pouvoir-04",
           "front": "wij kunnen",
           "back": "nous pouvons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, pouvoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, pouvoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32364,7 +32364,7 @@
           "id": "fr-codex-verbs-present-pouvoir-05",
           "front": "jullie kunnen",
           "back": "vous pouvez",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, pouvoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, pouvoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32383,7 +32383,7 @@
           "id": "fr-codex-verbs-present-pouvoir-06",
           "front": "zij kunnen",
           "back": "ils peuvent",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, pouvoir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, pouvoir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32402,7 +32402,7 @@
           "id": "fr-codex-verbs-present-vouloir-01",
           "front": "ik wil",
           "back": "je veux",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, vouloir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, vouloir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32421,7 +32421,7 @@
           "id": "fr-codex-verbs-present-vouloir-02",
           "front": "jij wil",
           "back": "tu veux",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, vouloir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, vouloir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32440,7 +32440,7 @@
           "id": "fr-codex-verbs-present-vouloir-03",
           "front": "hij wil",
           "back": "il veut",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, vouloir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, vouloir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32459,7 +32459,7 @@
           "id": "fr-codex-verbs-present-vouloir-04",
           "front": "wij willen",
           "back": "nous voulons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, vouloir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, vouloir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32478,7 +32478,7 @@
           "id": "fr-codex-verbs-present-vouloir-05",
           "front": "jullie willen",
           "back": "vous voulez",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, vouloir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, vouloir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32497,7 +32497,7 @@
           "id": "fr-codex-verbs-present-vouloir-06",
           "front": "zij willen",
           "back": "ils veulent",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, vouloir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, vouloir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32516,7 +32516,7 @@
           "id": "fr-codex-verbs-present-venir-01",
           "front": "ik kom",
           "back": "je viens",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, venir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, venir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32535,7 +32535,7 @@
           "id": "fr-codex-verbs-present-venir-02",
           "front": "jij komt",
           "back": "tu viens",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, venir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, venir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32554,7 +32554,7 @@
           "id": "fr-codex-verbs-present-venir-03",
           "front": "hij komt",
           "back": "il vient",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, venir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, venir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32573,7 +32573,7 @@
           "id": "fr-codex-verbs-present-venir-04",
           "front": "wij komen",
           "back": "nous venons",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, venir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, venir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32592,7 +32592,7 @@
           "id": "fr-codex-verbs-present-venir-05",
           "front": "jullie komen",
           "back": "vous venez",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, venir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, venir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32611,7 +32611,7 @@
           "id": "fr-codex-verbs-present-venir-06",
           "front": "zij komen",
           "back": "ils viennent",
-          "tags": "FR-NL, werkwoorden, vervoeging, prÃ©sent, venir",
+          "tags": "FR-NL, werkwoorden, vervoeging, présent, venir",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32629,8 +32629,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-marcher-01",
           "front": "ik heb gelopen",
-          "back": "j'ai marchÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, marcher",
+          "back": "j'ai marché",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32648,8 +32648,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-marcher-02",
           "front": "jij hebt gelopen",
-          "back": "tu as marchÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, marcher",
+          "back": "tu as marché",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32667,8 +32667,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-marcher-03",
           "front": "hij heeft gelopen",
-          "back": "il a marchÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, marcher",
+          "back": "il a marché",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32686,8 +32686,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-marcher-04",
           "front": "wij hebben gelopen",
-          "back": "nous avons marchÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, marcher",
+          "back": "nous avons marché",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32705,8 +32705,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-marcher-05",
           "front": "jullie hebben gelopen",
-          "back": "vous avez marchÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, marcher",
+          "back": "vous avez marché",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32724,8 +32724,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-marcher-06",
           "front": "zij hebben gelopen",
-          "back": "ils ont marchÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, marcher",
+          "back": "ils ont marché",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, marcher",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32743,8 +32743,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-aller-01",
           "front": "ik ben gegaan",
-          "back": "je suis allÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, aller",
+          "back": "je suis allé",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32762,8 +32762,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-aller-02",
           "front": "jij bent gegaan",
-          "back": "tu es allÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, aller",
+          "back": "tu es allé",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32781,8 +32781,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-aller-03",
           "front": "hij is gegaan",
-          "back": "il est allÃ©",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, aller",
+          "back": "il est allé",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32800,8 +32800,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-aller-04",
           "front": "wij zijn gegaan",
-          "back": "nous sommes allÃ©s",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, aller",
+          "back": "nous sommes allés",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32819,8 +32819,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-aller-05",
           "front": "jullie zijn gegaan",
-          "back": "vous Ãªtes allÃ©s",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, aller",
+          "back": "vous êtes allés",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32838,8 +32838,8 @@
         {
           "id": "fr-codex-verbs-passe-compose-aller-06",
           "front": "zij zijn gegaan",
-          "back": "ils sont allÃ©s",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, aller",
+          "back": "ils sont allés",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, aller",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32858,7 +32858,7 @@
           "id": "fr-codex-verbs-passe-compose-faire-01",
           "front": "ik heb gedaan",
           "back": "j'ai fait",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32877,7 +32877,7 @@
           "id": "fr-codex-verbs-passe-compose-faire-02",
           "front": "jij hebt gedaan",
           "back": "tu as fait",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32896,7 +32896,7 @@
           "id": "fr-codex-verbs-passe-compose-faire-03",
           "front": "hij heeft gedaan",
           "back": "il a fait",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32915,7 +32915,7 @@
           "id": "fr-codex-verbs-passe-compose-faire-04",
           "front": "wij hebben gedaan",
           "back": "nous avons fait",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32934,7 +32934,7 @@
           "id": "fr-codex-verbs-passe-compose-faire-05",
           "front": "jullie hebben gedaan",
           "back": "vous avez fait",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32953,7 +32953,7 @@
           "id": "fr-codex-verbs-passe-compose-faire-06",
           "front": "zij hebben gedaan",
           "back": "ils ont fait",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, faire",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, faire",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32972,7 +32972,7 @@
           "id": "fr-codex-verbs-passe-compose-prendre-01",
           "front": "ik heb genomen",
           "back": "j'ai pris",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -32991,7 +32991,7 @@
           "id": "fr-codex-verbs-passe-compose-prendre-02",
           "front": "jij hebt genomen",
           "back": "tu as pris",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33010,7 +33010,7 @@
           "id": "fr-codex-verbs-passe-compose-prendre-03",
           "front": "hij heeft genomen",
           "back": "il a pris",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33029,7 +33029,7 @@
           "id": "fr-codex-verbs-passe-compose-prendre-04",
           "front": "wij hebben genomen",
           "back": "nous avons pris",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33048,7 +33048,7 @@
           "id": "fr-codex-verbs-passe-compose-prendre-05",
           "front": "jullie hebben genomen",
           "back": "vous avez pris",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33067,7 +33067,7 @@
           "id": "fr-codex-verbs-passe-compose-prendre-06",
           "front": "zij hebben genomen",
           "back": "ils ont pris",
-          "tags": "FR-NL, werkwoorden, vervoeging, passÃ© composÃ©, prendre",
+          "tags": "FR-NL, werkwoorden, vervoeging, passé composé, prendre",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33085,8 +33085,8 @@
         {
           "id": "fr-codex-verbs-imparfait-etre-01",
           "front": "ik was",
-          "back": "j'Ã©tais",
-          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, Ãªtre",
+          "back": "j'étais",
+          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33104,8 +33104,8 @@
         {
           "id": "fr-codex-verbs-imparfait-etre-02",
           "front": "jij was",
-          "back": "tu Ã©tais",
-          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, Ãªtre",
+          "back": "tu étais",
+          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33123,8 +33123,8 @@
         {
           "id": "fr-codex-verbs-imparfait-etre-03",
           "front": "hij was",
-          "back": "il Ã©tait",
-          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, Ãªtre",
+          "back": "il était",
+          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33142,8 +33142,8 @@
         {
           "id": "fr-codex-verbs-imparfait-etre-04",
           "front": "wij waren",
-          "back": "nous Ã©tions",
-          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, Ãªtre",
+          "back": "nous étions",
+          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33161,8 +33161,8 @@
         {
           "id": "fr-codex-verbs-imparfait-etre-05",
           "front": "jullie waren",
-          "back": "vous Ã©tiez",
-          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, Ãªtre",
+          "back": "vous étiez",
+          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33180,8 +33180,8 @@
         {
           "id": "fr-codex-verbs-imparfait-etre-06",
           "front": "zij waren",
-          "back": "ils Ã©taient",
-          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, Ãªtre",
+          "back": "ils étaient",
+          "tags": "FR-NL, werkwoorden, vervoeging, imparfait, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -33998,7 +33998,7 @@
           "id": "fr-codex-verbs-futur-simple-etre-01",
           "front": "ik zal zijn",
           "back": "je serai",
-          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -34017,7 +34017,7 @@
           "id": "fr-codex-verbs-futur-simple-etre-02",
           "front": "jij zal zijn",
           "back": "tu seras",
-          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -34036,7 +34036,7 @@
           "id": "fr-codex-verbs-futur-simple-etre-03",
           "front": "hij zal zijn",
           "back": "il sera",
-          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -34055,7 +34055,7 @@
           "id": "fr-codex-verbs-futur-simple-etre-04",
           "front": "wij zullen zijn",
           "back": "nous serons",
-          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -34074,7 +34074,7 @@
           "id": "fr-codex-verbs-futur-simple-etre-05",
           "front": "jullie zullen zijn",
           "back": "vous serez",
-          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -34093,7 +34093,7 @@
           "id": "fr-codex-verbs-futur-simple-etre-06",
           "front": "zij zullen zijn",
           "back": "ils seront",
-          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, Ãªtre",
+          "tags": "FR-NL, werkwoorden, vervoeging, futur simple, être",
           "frontImage": "",
           "backImage": "",
           "zoomImages": [],
@@ -36519,15 +36519,15 @@
     },
     {
       "id": "deck-belgie-provincies",
-      "title": "BelgiÃ« provincies",
-      "description": "Kaart van BelgiÃ«: herken de provincie en geef de hoofdstad.",
+      "title": "België provincies",
+      "description": "Kaart van België: herken de provincie en geef de hoofdstad.",
       "color": "#315c9b",
       "cards": [
         {
           "id": "be-provincie-antwerpen",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Antwerpen\nHoofdstad: Antwerpen",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/antwerpen.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36557,7 +36557,7 @@
           "id": "be-provincie-limburg",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Limburg\nHoofdstad: Hasselt",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/limburg.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36587,7 +36587,7 @@
           "id": "be-provincie-oost-vlaanderen",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Oost-Vlaanderen\nHoofdstad: Gent",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/oost-vlaanderen.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36617,7 +36617,7 @@
           "id": "be-provincie-vlaams-brabant",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Vlaams-Brabant\nHoofdstad: Leuven",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/vlaams-brabant.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36647,7 +36647,7 @@
           "id": "be-provincie-west-vlaanderen",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: West-Vlaanderen\nHoofdstad: Brugge",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/west-vlaanderen.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36677,7 +36677,7 @@
           "id": "be-provincie-waals-brabant",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Waals-Brabant\nHoofdstad: Waver",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/waals-brabant.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36707,7 +36707,7 @@
           "id": "be-provincie-henegouwen",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Henegouwen\nHoofdstad: Bergen",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/henegouwen.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36737,7 +36737,7 @@
           "id": "be-provincie-luik",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Luik\nHoofdstad: Luik",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/luik.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36767,7 +36767,7 @@
           "id": "be-provincie-luxemburg",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Luxemburg\nHoofdstad: Aarlen",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/luxemburg.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36797,7 +36797,7 @@
           "id": "be-provincie-namen",
           "front": "Welke provincie? Hoofdstad?",
           "back": "Provincie: Namen\nHoofdstad: Namen",
-          "tags": "BelgiÃ«, provincies, aardrijkskunde, hoofdstad",
+          "tags": "België, provincies, aardrijkskunde, hoofdstad",
           "frontImage": "./images/belgie-provincies/namen.svg",
           "backImage": "",
           "zoomImages": [],
@@ -36853,7 +36853,7 @@
               "value": "Afghanistan",
               "aliases": [
                 "AF",
-                "AfÄ¡ÄnistÄn",
+                "Afġānistān",
                 "Islamic Republic of Afghanistan",
                 "Islamic State of Afghanistan"
               ]
@@ -36874,7 +36874,7 @@
         {
           "id": "wereld-land-alb",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: AlbaniÃ«\nHoofdstad: Tirana",
+          "back": "Land: Albanië\nHoofdstad: Tirana",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/alb-albani-regio.svg",
           "backImage": "",
@@ -36890,14 +36890,14 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "AlbaniÃ«",
+              "value": "Albanië",
               "aliases": [
                 "AL",
                 "Albania",
                 "Republic of Albania",
                 "Shqipnia",
-                "ShqipÃ«ri",
-                "ShqipÃ«ria"
+                "Shqipëri",
+                "Shqipëria"
               ]
             },
             {
@@ -36935,7 +36935,7 @@
               "value": "Algerije",
               "aliases": [
                 "Algeria",
-                "AlgÃ©rie",
+                "Algérie",
                 "DZ",
                 "Dzayer",
                 "People's Democratic Republic of Algeria"
@@ -36978,8 +36978,8 @@
                 "AO",
                 "People's Republic of Angola",
                 "Republic of Angola",
-                "RepÃºblica de Angola",
-                "ÊÉ›publika de an'É¡É”la"
+                "República de Angola",
+                "ʁɛpublika de an'ɡɔla"
               ]
             },
             {
@@ -36998,7 +36998,7 @@
         {
           "id": "wereld-land-arg",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: ArgentiniÃ«\nHoofdstad: Buenos Aires",
+          "back": "Land: Argentinië\nHoofdstad: Buenos Aires",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, South America",
           "frontImage": "./images/wereld-landen/arg-argentini-regio.svg",
           "backImage": "",
@@ -37014,12 +37014,12 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "ArgentiniÃ«",
+              "value": "Argentinië",
               "aliases": [
                 "AR",
                 "Argentina",
                 "Argentine Republic",
-                "RepÃºblica Argentina"
+                "República Argentina"
               ]
             },
             {
@@ -37038,7 +37038,7 @@
         {
           "id": "wereld-land-arm",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: ArmeniÃ«\nHoofdstad: Yerevan",
+          "back": "Land: Armenië\nHoofdstad: Yerevan",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/arm-armeni-regio.svg",
           "backImage": "",
@@ -37054,13 +37054,13 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "ArmeniÃ«",
+              "value": "Armenië",
               "aliases": [
                 "AM",
                 "Armenia",
                 "Hayastan",
                 "Republic of Armenia",
-                "Õ€Õ¡ÕµÕ¡Õ½Õ¿Õ¡Õ¶Õ« Õ€Õ¡Õ¶Ö€Õ¡ÕºÕ¥Õ¿Õ¸Ö‚Õ©ÕµÕ¸Ö‚Õ¶"
+                "Հայաստանի Հանրապետություն"
               ]
             },
             {
@@ -37079,7 +37079,7 @@
         {
           "id": "wereld-land-aus",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: AustraliÃ«\nHoofdstad: Canberra",
+          "back": "Land: Australië\nHoofdstad: Canberra",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Oceania",
           "frontImage": "./images/wereld-landen/aus-australi-regio.svg",
           "backImage": "",
@@ -37095,7 +37095,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "AustraliÃ«",
+              "value": "Australië",
               "aliases": [
                 "AU",
                 "Australia",
@@ -37138,7 +37138,7 @@
               "aliases": [
                 "AZ",
                 "Azerbaijan",
-                "AzÉ™rbaycan RespublikasÄ±",
+                "Azərbaycan Respublikası",
                 "Republic of Azerbaijan"
               ]
             },
@@ -37158,7 +37158,7 @@
         {
           "id": "wereld-land-bhs",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Bahamaâ€™s\nHoofdstad: Nassau",
+          "back": "Land: Bahama’s\nHoofdstad: Nassau",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, North America",
           "frontImage": "./images/wereld-landen/bhs-bahama-s-regio.svg",
           "backImage": "",
@@ -37174,7 +37174,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "Bahamaâ€™s",
+              "value": "Bahama’s",
               "aliases": [
                 "BS",
                 "Bahama's",
@@ -37218,7 +37218,7 @@
               "value": "Bangladesh",
               "aliases": [
                 "BD",
-                "GÃ´nÃ´prÃ´jatÃ´ntri Bangladesh",
+                "Gônôprôjatôntri Bangladesh",
                 "People's Republic of Bangladesh"
               ]
             },
@@ -37238,7 +37238,7 @@
         {
           "id": "wereld-land-bel",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: BelgiÃ«\nHoofdstad: Brussels",
+          "back": "Land: België\nHoofdstad: Brussels",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/bel-belgi-regio.svg",
           "backImage": "",
@@ -37254,7 +37254,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "BelgiÃ«",
+              "value": "België",
               "aliases": [
                 "BE",
                 "Belgie",
@@ -37262,8 +37262,8 @@
                 "Belgique",
                 "Belgium",
                 "Kingdom of Belgium",
-                "Koninkrijk BelgiÃ«",
-                "KÃ¶nigreich Belgien",
+                "Koninkrijk België",
+                "Königreich Belgien",
                 "Royaume de Belgique"
               ]
             },
@@ -37340,7 +37340,7 @@
               "aliases": [
                 "BJ",
                 "Republic of Benin",
-                "RÃ©publique du BÃ©nin"
+                "République du Bénin"
               ]
             },
             {
@@ -37421,7 +37421,7 @@
                 "Buliwya Mamallaqta",
                 "Estado Plurinacional de Bolivia",
                 "Plurinational State of Bolivia",
-                "TetÃ£ VolÃ­via",
+                "Tetã Volívia",
                 "Wuliwya",
                 "Wuliwya Suyu"
               ]
@@ -37442,7 +37442,7 @@
         {
           "id": "wereld-land-bih",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: BosniÃ« en Herzegovina\nHoofdstad: Sarajevo",
+          "back": "Land: Bosnië en Herzegovina\nHoofdstad: Sarajevo",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/bih-bosni-en-herzegovina-regio.svg",
           "backImage": "",
@@ -37458,12 +37458,12 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "BosniÃ« en Herzegovina",
+              "value": "Bosnië en Herzegovina",
               "aliases": [
                 "BA",
                 "Bosnia and Herzegovina",
                 "Bosnia-Herzegovina",
-                "Ð‘Ð¾ÑÐ½Ð° Ð¸ Ð¥ÐµÑ€Ñ†ÐµÐ³Ð¾Ð²Ð¸Ð½Ð°"
+                "Босна и Херцеговина"
               ]
             },
             {
@@ -37521,7 +37521,7 @@
         {
           "id": "wereld-land-bra",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: BraziliÃ«\nHoofdstad: BrasÃ­lia",
+          "back": "Land: Brazilië\nHoofdstad: Brasília",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, South America",
           "frontImage": "./images/wereld-landen/bra-brazili-regio.svg",
           "backImage": "",
@@ -37537,20 +37537,20 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "BraziliÃ«",
+              "value": "Brazilië",
               "aliases": [
                 "BR",
                 "Brasil",
                 "Brazil",
                 "Federative Republic of Brazil",
-                "RepÃºblica Federativa do Brasil"
+                "República Federativa do Brasil"
               ]
             },
             {
               "label": "Hoofdstad",
-              "value": "BrasÃ­lia",
+              "value": "Brasília",
               "aliases": [
-                "BrasÃ­lia"
+                "Brasília"
               ]
             }
           ],
@@ -37625,7 +37625,7 @@
                 "BG",
                 "Bulgaria",
                 "Republic of Bulgaria",
-                "Ð ÐµÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ° Ð‘ÑŠÐ»Ð³Ð°Ñ€Ð¸Ñ"
+                "Република България"
               ]
             },
             {
@@ -37702,7 +37702,7 @@
                 "BI",
                 "Republic of Burundi",
                 "Republika y'Uburundi",
-                "RÃ©publique du Burundi"
+                "République du Burundi"
               ]
             },
             {
@@ -37817,7 +37817,7 @@
               "aliases": [
                 "CF",
                 "Central African Republic",
-                "RÃ©publique centrafricaine"
+                "République centrafricaine"
               ]
             },
             {
@@ -37857,7 +37857,7 @@
                 "CL",
                 "Chile",
                 "Republic of Chile",
-                "RepÃºblica de Chile"
+                "República de Chile"
               ]
             },
             {
@@ -37899,9 +37899,9 @@
                 "Volksrepubliek China",
                 "Zhongguo",
                 "Zhonghua",
-                "ZhÅngguÃ³",
-                "ZhÅnghuÃ¡ RÃ©nmÃ­n GÃ²nghÃ©guÃ³",
-                "ä¸­åŽäººæ°‘å…±å’Œå›½"
+                "Zhōngguó",
+                "Zhōnghuá Rénmín Gònghéguó",
+                "中华人民共和国"
               ]
             },
             {
@@ -37920,7 +37920,7 @@
         {
           "id": "wereld-land-col",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Colombia\nHoofdstad: BogotÃ¡",
+          "back": "Land: Colombia\nHoofdstad: Bogotá",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, South America",
           "frontImage": "./images/wereld-landen/col-colombia-regio.svg",
           "backImage": "",
@@ -37940,14 +37940,14 @@
               "aliases": [
                 "CO",
                 "Republic of Colombia",
-                "RepÃºblica de Colombia"
+                "República de Colombia"
               ]
             },
             {
               "label": "Hoofdstad",
-              "value": "BogotÃ¡",
+              "value": "Bogotá",
               "aliases": [
-                "BogotÃ¡"
+                "Bogotá"
               ]
             }
           ],
@@ -38041,7 +38041,7 @@
         {
           "id": "wereld-land-cri",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Costa Rica\nHoofdstad: San JosÃ©",
+          "back": "Land: Costa Rica\nHoofdstad: San José",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, North America",
           "frontImage": "./images/wereld-landen/cri-costa-rica-regio.svg",
           "backImage": "",
@@ -38061,14 +38061,14 @@
               "aliases": [
                 "CR",
                 "Republic of Costa Rica",
-                "RepÃºblica de Costa Rica"
+                "República de Costa Rica"
               ]
             },
             {
               "label": "Hoofdstad",
-              "value": "San JosÃ©",
+              "value": "San José",
               "aliases": [
-                "San JosÃ©"
+                "San José"
               ]
             }
           ],
@@ -38100,7 +38100,7 @@
               "aliases": [
                 "CU",
                 "Republic of Cuba",
-                "RepÃºblica de Cuba"
+                "República de Cuba"
               ]
             },
             {
@@ -38138,11 +38138,11 @@
               "value": "Cyprus",
               "aliases": [
                 "CY",
-                "KÃ½pros",
-                "KÄ±brÄ±s",
-                "KÄ±brÄ±s Cumhuriyeti",
+                "Kýpros",
+                "Kıbrıs",
+                "Kıbrıs Cumhuriyeti",
                 "Republic of Cyprus",
-                "ÎšÏ…Ï€ÏÎ¹Î±ÎºÎ® Î”Î·Î¼Î¿ÎºÏÎ±Ï„Î¯Î±"
+                "Κυπριακή Δημοκρατία"
               ]
             },
             {
@@ -38226,7 +38226,7 @@
                 "Jabuuti",
                 "Jamhuuriyadda Jabuuti",
                 "Republic of Djibouti",
-                "RÃ©publique de Djibouti"
+                "République de Djibouti"
               ]
             },
             {
@@ -38343,7 +38343,7 @@
               "aliases": [
                 "EC",
                 "Republic of Ecuador",
-                "RepÃºblica del Ecuador"
+                "República del Ecuador"
               ]
             },
             {
@@ -38420,7 +38420,7 @@
               "value": "El Salvador",
               "aliases": [
                 "Republic of El Salvador",
-                "RepÃºblica de El Salvador",
+                "República de El Salvador",
                 "SV"
               ]
             },
@@ -38461,9 +38461,9 @@
                 "Equatorial Guinea",
                 "GQ",
                 "Republic of Equatorial Guinea",
-                "RepÃºblica da GuinÃ© Equatorial",
-                "RepÃºblica de Guinea Ecuatorial",
-                "RÃ©publique de GuinÃ©e Ã©quatoriale"
+                "República da Guiné Equatorial",
+                "República de Guinea Ecuatorial",
+                "République de Guinée équatoriale"
               ]
             },
             {
@@ -38500,12 +38500,12 @@
               "label": "Land",
               "value": "Eritrea",
               "aliases": [
-                "Dawlat IritriyÃ¡",
+                "Dawlat Iritriyá",
                 "ER",
-                "IritriyÄ",
+                "Iritriyā",
                 "State of Eritrea",
-                "Ê¾ErtrÄ",
-                "áˆƒáŒˆáˆ¨ áŠ¤áˆ­á‰µáˆ«"
+                "ʾErtrā",
+                "ሃገረ ኤርትራ"
               ]
             },
             {
@@ -38565,7 +38565,7 @@
         {
           "id": "wereld-land-eth",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: EthiopiÃ«\nHoofdstad: Addis Ababa",
+          "back": "Land: Ethiopië\nHoofdstad: Addis Ababa",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/eth-ethiopi-regio.svg",
           "backImage": "",
@@ -38581,13 +38581,13 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "EthiopiÃ«",
+              "value": "Ethiopië",
               "aliases": [
                 "ET",
                 "Ethiopia",
                 "Federal Democratic Republic of Ethiopia",
-                "Ê¾ÄªtyÅá¹—á¹—yÄ",
-                "á‹¨áŠ¢á‰µá‹®áŒµá‹« áŒá‹´áˆ«áˆ‹á‹Š á‹²áˆžáŠ­áˆ«áˆ²á‹«á‹Š áˆªáá‰¥áˆŠáŠ­"
+                "ʾĪtyōṗṗyā",
+                "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
               ]
             },
             {
@@ -38625,7 +38625,7 @@
               "value": "Fiji",
               "aliases": [
                 "FJ",
-                "FijÄ« Gaá¹‡arÄjya",
+                "Fijī Gaṇarājya",
                 "Matanitu ko Viti",
                 "Republic of Fiji",
                 "Viti"
@@ -38668,7 +38668,7 @@
                 "PH",
                 "Philippines",
                 "Republic of the Philippines",
-                "RepÃºblika ng Pilipinas"
+                "Repúblika ng Pilipinas"
               ]
             },
             {
@@ -38749,7 +38749,7 @@
                 "FR",
                 "France",
                 "French Republic",
-                "RÃ©publique franÃ§aise"
+                "République française"
               ]
             },
             {
@@ -38788,7 +38788,7 @@
               "aliases": [
                 "GA",
                 "Gabonese Republic",
-                "RÃ©publique Gabonaise"
+                "République Gabonaise"
               ]
             },
             {
@@ -38846,7 +38846,7 @@
         {
           "id": "wereld-land-geo",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: GeorgiÃ«\nHoofdstad: Tbilisi",
+          "back": "Land: Georgië\nHoofdstad: Tbilisi",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/geo-georgi-regio.svg",
           "backImage": "",
@@ -38862,7 +38862,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "GeorgiÃ«",
+              "value": "Georgië",
               "aliases": [
                 "GE",
                 "Georgia",
@@ -38941,11 +38941,11 @@
               "label": "Land",
               "value": "Griekenland",
               "aliases": [
-                "EllÃ¡da",
+                "Elláda",
                 "GR",
                 "Greece",
                 "Hellenic Republic",
-                "Î•Î»Î»Î·Î½Î¹ÎºÎ® Î”Î·Î¼Î¿ÎºÏÎ±Ï„Î¯Î±"
+                "Ελληνική Δημοκρατία"
               ]
             },
             {
@@ -39023,7 +39023,7 @@
                 "GN",
                 "Guinea",
                 "Republic of Guinea",
-                "RÃ©publique de GuinÃ©e"
+                "République de Guinée"
               ]
             },
             {
@@ -39063,7 +39063,7 @@
                 "GW",
                 "Guinea-Bissau",
                 "Republic of Guinea-Bissau",
-                "RepÃºblica da GuinÃ©-Bissau"
+                "República da Guiné-Bissau"
               ]
             },
             {
@@ -39120,7 +39120,7 @@
         {
           "id": "wereld-land-hti",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: HaÃ¯ti\nHoofdstad: Port-au-Prince",
+          "back": "Land: Haïti\nHoofdstad: Port-au-Prince",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, North America",
           "frontImage": "./images/wereld-landen/hti-ha-ti-regio.svg",
           "backImage": "",
@@ -39136,13 +39136,13 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "HaÃ¯ti",
+              "value": "Haïti",
               "aliases": [
                 "HT",
                 "Haiti",
                 "Repiblik Ayiti",
                 "Republic of Haiti",
-                "RÃ©publique d'HaÃ¯ti"
+                "République d'Haïti"
               ]
             },
             {
@@ -39181,7 +39181,7 @@
               "aliases": [
                 "HN",
                 "Republic of Honduras",
-                "RepÃºblica de Honduras"
+                "República de Honduras"
               ]
             },
             {
@@ -39260,7 +39260,7 @@
                 "IS",
                 "Iceland",
                 "Island",
-                "LÃ½Ã°veldiÃ° Ãsland",
+                "Lýðveldið Ísland",
                 "Republic of Iceland"
               ]
             },
@@ -39300,9 +39300,9 @@
               "aliases": [
                 "IE",
                 "Ireland",
-                "Poblacht na hÃ‰ireann",
+                "Poblacht na hÉireann",
                 "Republic of Ireland",
-                "Ã‰ire"
+                "Éire"
               ]
             },
             {
@@ -39340,10 +39340,10 @@
               "value": "India",
               "aliases": [
                 "Bharat Ganrajya",
-                "BhÄrat",
+                "Bhārat",
                 "IN",
                 "Republic of India",
-                "à®‡à®¨à¯à®¤à®¿à®¯à®¾"
+                "இந்தியா"
               ]
             },
             {
@@ -39362,7 +39362,7 @@
         {
           "id": "wereld-land-idn",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: IndonesiÃ«\nHoofdstad: Jakarta",
+          "back": "Land: Indonesië\nHoofdstad: Jakarta",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/idn-indonesi-regio.svg",
           "backImage": "",
@@ -39378,7 +39378,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "IndonesiÃ«",
+              "value": "Indonesië",
               "aliases": [
                 "ID",
                 "Indonesia",
@@ -39422,7 +39422,7 @@
               "aliases": [
                 "IQ",
                 "Iraq",
-                "JumhÅ«riyyat al-â€˜IrÄq",
+                "Jumhūriyyat al-‘Irāq",
                 "Republic of Iraq"
               ]
             },
@@ -39463,7 +39463,7 @@
                 "IR",
                 "Iran, Islamic Republic of",
                 "Islamic Republic of Iran",
-                "Jomhuri-ye EslÄmi-ye IrÄn"
+                "Jomhuri-ye Eslāmi-ye Irān"
               ]
             },
             {
@@ -39482,7 +39482,7 @@
         {
           "id": "wereld-land-isr",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: IsraÃ«l\nHoofdstad: Jerusalem",
+          "back": "Land: Israël\nHoofdstad: Jerusalem",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/isr-isra-l-regio.svg",
           "backImage": "",
@@ -39498,11 +39498,11 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "IsraÃ«l",
+              "value": "Israël",
               "aliases": [
                 "IL",
                 "Israel",
-                "MedÄ«nat YisrÄ'el",
+                "Medīnat Yisrā'el",
                 "State of Israel"
               ]
             },
@@ -39522,7 +39522,7 @@
         {
           "id": "wereld-land-ita",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: ItaliÃ«\nHoofdstad: Rome",
+          "back": "Land: Italië\nHoofdstad: Rome",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/ita-itali-regio.svg",
           "backImage": "",
@@ -39538,7 +39538,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "ItaliÃ«",
+              "value": "Italië",
               "aliases": [
                 "IT",
                 "Italian Republic",
@@ -39582,11 +39582,11 @@
               "aliases": [
                 "CI",
                 "Cote d'Ivoire",
-                "CÃ´te d'Ivoire",
+                "Côte d'Ivoire",
                 "Ivory Coast",
-                "Republic of CÃ´te d'Ivoire",
+                "Republic of Côte d'Ivoire",
                 "Republic of Ivory Coast",
-                "RÃ©publique de CÃ´te d'Ivoire"
+                "République de Côte d'Ivoire"
               ]
             },
             {
@@ -39703,7 +39703,7 @@
                 "YE",
                 "Yemen",
                 "Yemeni Republic",
-                "al-JumhÅ«riyyah al-Yamaniyyah"
+                "al-Jumhūriyyah al-Yamaniyyah"
               ]
             },
             {
@@ -39722,7 +39722,7 @@
         {
           "id": "wereld-land-jor",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: JordaniÃ«\nHoofdstad: Amman",
+          "back": "Land: Jordanië\nHoofdstad: Amman",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/jor-jordani-regio.svg",
           "backImage": "",
@@ -39738,12 +39738,12 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "JordaniÃ«",
+              "value": "Jordanië",
               "aliases": [
                 "Hashemite Kingdom of Jordan",
                 "JO",
                 "Jordan",
-                "al-Mamlakah al-UrdunÄ«yah al-HÄshimÄ«yah"
+                "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
               ]
             },
             {
@@ -39762,7 +39762,7 @@
         {
           "id": "wereld-land-cmr",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Kameroen\nHoofdstad: YaoundÃ©",
+          "back": "Land: Kameroen\nHoofdstad: Yaoundé",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/cmr-kameroen-regio.svg",
           "backImage": "",
@@ -39783,14 +39783,14 @@
                 "CM",
                 "Cameroon",
                 "Republic of Cameroon",
-                "RÃ©publique du Cameroun"
+                "République du Cameroun"
               ]
             },
             {
               "label": "Hoofdstad",
-              "value": "YaoundÃ©",
+              "value": "Yaoundé",
               "aliases": [
-                "YaoundÃ©"
+                "Yaoundé"
               ]
             }
           ],
@@ -39823,12 +39823,12 @@
                 "KZ",
                 "Kazakhstan",
                 "Qazaqstan",
-                "Qazaqstan RespublÃ¯kasÄ±",
+                "Qazaqstan Respublïkası",
                 "Republic of Kazakhstan",
                 "Respublika Kazakhstan",
-                "ÐšÐ°Ð·Ð°Ñ…ÑÑ‚Ð°Ð½",
-                "Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ° ÐšÐ°Ð·Ð°Ñ…ÑÑ‚Ð°Ð½",
-                "ÒšÐ°Ð·Ð°Ò›ÑÑ‚Ð°Ð½ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°ÑÑ‹"
+                "Казахстан",
+                "Республика Казахстан",
+                "Қазақстан Республикасы"
               ]
             },
             {
@@ -39887,7 +39887,7 @@
         {
           "id": "wereld-land-kgz",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: KirgiziÃ«\nHoofdstad: Bishkek",
+          "back": "Land: Kirgizië\nHoofdstad: Bishkek",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/kgz-kirgizi-regio.svg",
           "backImage": "",
@@ -39903,14 +39903,14 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "KirgiziÃ«",
+              "value": "Kirgizië",
               "aliases": [
                 "KG",
                 "Kyrgyz Republic",
                 "Kyrgyz Respublikasy",
                 "Kyrgyzstan",
-                "ÐšÐ¸Ñ€Ð³Ð¸Ð·Ð¸Ñ",
-                "ÐšÑ‹Ñ€Ð³Ñ‹Ð· Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°ÑÑ‹"
+                "Киргизия",
+                "Кыргыз Республикасы"
               ]
             },
             {
@@ -39969,7 +39969,7 @@
         {
           "id": "wereld-land-hrv",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: KroatiÃ«\nHoofdstad: Zagreb",
+          "back": "Land: Kroatië\nHoofdstad: Zagreb",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/hrv-kroati-regio.svg",
           "backImage": "",
@@ -39985,7 +39985,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "KroatiÃ«",
+              "value": "Kroatië",
               "aliases": [
                 "Croatia",
                 "HR",
@@ -40148,7 +40148,7 @@
               "label": "Land",
               "value": "Libanon",
               "aliases": [
-                "Al-JumhÅ«rÄ«yah Al-LibnÄnÄ«yah",
+                "Al-Jumhūrīyah Al-Libnānīyah",
                 "LB",
                 "Lebanese Republic",
                 "Lebanon"
@@ -40208,7 +40208,7 @@
         {
           "id": "wereld-land-lby",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: LibiÃ«\nHoofdstad: Tripoli",
+          "back": "Land: Libië\nHoofdstad: Tripoli",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/lby-libi-regio.svg",
           "backImage": "",
@@ -40224,7 +40224,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "LibiÃ«",
+              "value": "Libië",
               "aliases": [
                 "Dawlat Libya",
                 "LY",
@@ -40307,9 +40307,9 @@
               "value": "Luxemburg",
               "aliases": [
                 "Grand Duchy of Luxembourg",
-                "Grand-DuchÃ© de Luxembourg",
-                "Groussherzogtum LÃ«tzebuerg",
-                "GroÃŸherzogtum Luxemburg",
+                "Grand-Duché de Luxembourg",
+                "Groussherzogtum Lëtzebuerg",
+                "Großherzogtum Luxemburg",
                 "LU",
                 "Luxembourg"
               ]
@@ -40352,7 +40352,7 @@
                 "Madagascar",
                 "Repoblikan'i Madagasikara",
                 "Republic of Madagascar",
-                "RÃ©publique de Madagascar"
+                "République de Madagascar"
               ]
             },
             {
@@ -40409,7 +40409,7 @@
         {
           "id": "wereld-land-mys",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: MaleisiÃ«\nHoofdstad: Kuala Lumpur",
+          "back": "Land: Maleisië\nHoofdstad: Kuala Lumpur",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/mys-maleisi-regio.svg",
           "backImage": "",
@@ -40425,7 +40425,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "MaleisiÃ«",
+              "value": "Maleisië",
               "aliases": [
                 "MY",
                 "Malaysia"
@@ -40467,7 +40467,7 @@
               "aliases": [
                 "ML",
                 "Republic of Mali",
-                "RÃ©publique du Mali"
+                "République du Mali"
               ]
             },
             {
@@ -40504,7 +40504,7 @@
               "label": "Land",
               "value": "Marokko",
               "aliases": [
-                "Al-Mamlakah al-MaÄ¡ribiyah",
+                "Al-Mamlakah al-Maġribiyah",
                 "Kingdom of Morocco",
                 "MA",
                 "Morocco"
@@ -40526,7 +40526,7 @@
         {
           "id": "wereld-land-mrt",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: MauritaniÃ«\nHoofdstad: Nouakchott",
+          "back": "Land: Mauritanië\nHoofdstad: Nouakchott",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/mrt-mauritani-regio.svg",
           "backImage": "",
@@ -40542,12 +40542,12 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "MauritaniÃ«",
+              "value": "Mauritanië",
               "aliases": [
                 "Islamic Republic of Mauritania",
                 "MR",
                 "Mauritania",
-                "al-JumhÅ«riyyah al-Ê¾IslÄmiyyah al-MÅ«rÄ«tÄniyyah"
+                "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
               ]
             },
             {
@@ -40606,7 +40606,7 @@
         {
           "id": "wereld-land-mda",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: MoldaviÃ«\nHoofdstad: ChiÈ™inÄƒu",
+          "back": "Land: Moldavië\nHoofdstad: Chișinău",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/mda-moldavi-regio.svg",
           "backImage": "",
@@ -40622,7 +40622,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "MoldaviÃ«",
+              "value": "Moldavië",
               "aliases": [
                 "MD",
                 "Moldova",
@@ -40633,9 +40633,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "ChiÈ™inÄƒu",
+              "value": "Chișinău",
               "aliases": [
-                "ChiÈ™inÄƒu"
+                "Chișinău"
               ]
             }
           ],
@@ -40647,7 +40647,7 @@
         {
           "id": "wereld-land-mng",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: MongoliÃ«\nHoofdstad: Ulan Bator",
+          "back": "Land: Mongolië\nHoofdstad: Ulan Bator",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/mng-mongoli-regio.svg",
           "backImage": "",
@@ -40663,7 +40663,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "MongoliÃ«",
+              "value": "Mongolië",
               "aliases": [
                 "MN",
                 "Mongolia"
@@ -40743,7 +40743,7 @@
               "aliases": [
                 "MZ",
                 "Republic of Mozambique",
-                "RepÃºblica de MoÃ§ambique"
+                "República de Moçambique"
               ]
             },
             {
@@ -40782,7 +40782,7 @@
               "aliases": [
                 "Burma",
                 "MM",
-                "Pyidaunzu ThanmÄƒda MyÄƒma Nainngandaw",
+                "Pyidaunzu Thanmăda Myăma Nainngandaw",
                 "Republic of the Union of Myanmar"
               ]
             },
@@ -40802,7 +40802,7 @@
         {
           "id": "wereld-land-nam",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: NamibiÃ«\nHoofdstad: Windhoek",
+          "back": "Land: Namibië\nHoofdstad: Windhoek",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/nam-namibi-regio.svg",
           "backImage": "",
@@ -40818,7 +40818,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "NamibiÃ«",
+              "value": "Namibië",
               "aliases": [
                 "NA",
                 "Namibia",
@@ -40901,7 +40901,7 @@
               "value": "Nepal",
               "aliases": [
                 "Federal Democratic Republic of Nepal",
-                "LoktÄntrik Ganatantra NepÄl",
+                "Loktāntrik Ganatantra Nepāl",
                 "NP"
               ]
             },
@@ -40941,7 +40941,7 @@
               "aliases": [
                 "NI",
                 "Republic of Nicaragua",
-                "RepÃºblica de Nicaragua"
+                "República de Nicaragua"
               ]
             },
             {
@@ -41058,7 +41058,7 @@
               "aliases": [
                 "Federal Republic of Nigeria",
                 "NG",
-                "NaÃ­jÃ­rÃ­Ã ",
+                "Naíjíríà",
                 "Nijeriya"
               ]
             },
@@ -41096,16 +41096,16 @@
               "label": "Land",
               "value": "Noord-Korea",
               "aliases": [
-                "ChosÅn MinjujuÅ­i Inmin Konghwaguk",
+                "Chosŏn Minjujuŭi Inmin Konghwaguk",
                 "DPRK",
                 "Dem. Rep. Korea",
                 "Democratic People's Republic of Korea",
                 "KP",
                 "Korea, Democratic People's Republic of",
                 "North Korea",
-                "ë¶ì¡°ì„ ",
-                "ë¶í•œ",
-                "ì¡°ì„ ë¯¼ì£¼ì£¼ì˜ì¸ë¯¼ê³µí™”êµ­"
+                "북조선",
+                "북한",
+                "조선민주주의인민공화국"
               ]
             },
             {
@@ -41124,7 +41124,7 @@
         {
           "id": "wereld-land-mkd",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Noord-MacedoniÃ«\nHoofdstad: Skopje",
+          "back": "Land: Noord-Macedonië\nHoofdstad: Skopje",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/mkd-noord-macedoni-regio.svg",
           "backImage": "",
@@ -41140,7 +41140,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "Noord-MacedoniÃ«",
+              "value": "Noord-Macedonië",
               "aliases": [
                 "MK",
                 "Macedonia",
@@ -41148,7 +41148,7 @@
                 "North Macedonia",
                 "Republic of North Macedonia",
                 "The former Yugoslav Republic of Macedonia",
-                "Ð ÐµÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ° Ð¡ÐµÐ²ÐµÑ€Ð½Ð° ÐœÐ°ÐºÐµÐ´Ð¾Ð½Ð¸Ñ˜Ð°"
+                "Република Северна Македонија"
               ]
             },
             {
@@ -41250,7 +41250,7 @@
         {
           "id": "wereld-land-ukr",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: OekraÃ¯ne\nHoofdstad: Kyiv",
+          "back": "Land: Oekraïne\nHoofdstad: Kyiv",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/ukr-oekra-ne-regio.svg",
           "backImage": "",
@@ -41266,7 +41266,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "OekraÃ¯ne",
+              "value": "Oekraïne",
               "aliases": [
                 "UA",
                 "Ukraine",
@@ -41307,11 +41307,11 @@
               "label": "Land",
               "value": "Oezbekistan",
               "aliases": [
-                "Oâ€˜zbekiston Respublikasi",
+                "O‘zbekiston Respublikasi",
                 "Republic of Uzbekistan",
                 "UZ",
                 "Uzbekistan",
-                "ÐŽÐ·Ð±ÐµÐºÐ¸ÑÑ‚Ð¾Ð½ Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ°ÑÐ¸"
+                "Ўзбекистон Республикаси"
               ]
             },
             {
@@ -41349,7 +41349,7 @@
               "value": "Oman",
               "aliases": [
                 "OM",
-                "Salá¹­anat Ê»UmÄn",
+                "Salṭanat ʻUmān",
                 "Sultanate of Oman"
               ]
             },
@@ -41389,13 +41389,13 @@
               "aliases": [
                 "Democratic Republic of Timor-Leste",
                 "East Timor",
-                "RepÃºblica DemocrÃ¡tica de Timor-Leste",
-                "RepÃºblika DemokrÃ¡tika TimÃ³r-Leste",
+                "República Democrática de Timor-Leste",
+                "Repúblika Demokrátika Timór-Leste",
                 "TL",
                 "Timor",
                 "Timor Lorosae",
                 "Timor-Leste",
-                "TimÃ³r Lorosa'e"
+                "Timór Lorosa'e"
               ]
             },
             {
@@ -41474,9 +41474,9 @@
               "value": "Pakistan",
               "aliases": [
                 "Islamic Republic of Pakistan",
-                "IslÄmÄ« JumhÅ«riya'eh PÄkistÄn",
+                "Islāmī Jumhūriya'eh Pākistān",
                 "PK",
-                "PÄkistÄn"
+                "Pākistān"
               ]
             },
             {
@@ -41515,7 +41515,7 @@
               "aliases": [
                 "PA",
                 "Republic of Panama",
-                "RepÃºblica de PanamÃ¡"
+                "República de Panamá"
               ]
             },
             {
@@ -41574,7 +41574,7 @@
         {
           "id": "wereld-land-pry",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Paraguay\nHoofdstad: AsunciÃ³n",
+          "back": "Land: Paraguay\nHoofdstad: Asunción",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, South America",
           "frontImage": "./images/wereld-landen/pry-paraguay-regio.svg",
           "backImage": "",
@@ -41594,15 +41594,15 @@
               "aliases": [
                 "PY",
                 "Republic of Paraguay",
-                "RepÃºblica del Paraguay",
-                "TetÃ£ ParaguÃ¡i"
+                "República del Paraguay",
+                "Tetã Paraguái"
               ]
             },
             {
               "label": "Hoofdstad",
-              "value": "AsunciÃ³n",
+              "value": "Asunción",
               "aliases": [
-                "AsunciÃ³n"
+                "Asunción"
               ]
             }
           ],
@@ -41634,7 +41634,7 @@
               "aliases": [
                 "PE",
                 "Republic of Peru",
-                "RepÃºblica del PerÃº"
+                "República del Perú"
               ]
             },
             {
@@ -41714,7 +41714,7 @@
                 "PT",
                 "Portuguesa",
                 "Portuguese Republic",
-                "RepÃºblica Portuguesa"
+                "República Portuguesa"
               ]
             },
             {
@@ -41751,7 +41751,7 @@
               "label": "Land",
               "value": "Qatar",
               "aliases": [
-                "Dawlat Qaá¹­ar",
+                "Dawlat Qaṭar",
                 "QA",
                 "State of Qatar"
               ]
@@ -41772,7 +41772,7 @@
         {
           "id": "wereld-land-rou",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: RoemeniÃ«\nHoofdstad: Bucharest",
+          "back": "Land: Roemenië\nHoofdstad: Bucharest",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/rou-roemeni-regio.svg",
           "backImage": "",
@@ -41788,11 +41788,11 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "RoemeniÃ«",
+              "value": "Roemenië",
               "aliases": [
                 "RO",
                 "Romania",
-                "RomÃ¢nia",
+                "România",
                 "Roumania",
                 "Rumania"
               ]
@@ -41834,7 +41834,7 @@
                 "RU",
                 "Russia",
                 "Russian Federation",
-                "Ð Ð¾ÑÑÐ¸Ð¹ÑÐºÐ°Ñ Ð¤ÐµÐ´ÐµÑ€Ð°Ñ†Ð¸Ñ"
+                "Российская Федерация"
               ]
             },
             {
@@ -41874,7 +41874,7 @@
                 "RW",
                 "Republic of Rwanda",
                 "Repubulika y'u Rwanda",
-                "RÃ©publique du Rwanda"
+                "République du Rwanda"
               ]
             },
             {
@@ -41931,7 +41931,7 @@
         {
           "id": "wereld-land-sau",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Saoedi-ArabiÃ«\nHoofdstad: Riyadh",
+          "back": "Land: Saoedi-Arabië\nHoofdstad: Riyadh",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/sau-saoedi-arabi-regio.svg",
           "backImage": "",
@@ -41947,9 +41947,9 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "Saoedi-ArabiÃ«",
+              "value": "Saoedi-Arabië",
               "aliases": [
-                "Al-Mamlakah al-â€˜Arabiyyah as-Suâ€˜Å«diyyah",
+                "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah",
                 "Kingdom of Saudi Arabia",
                 "SA",
                 "Saudi",
@@ -41991,7 +41991,7 @@
               "value": "Senegal",
               "aliases": [
                 "Republic of Senegal",
-                "RÃ©publique du SÃ©nÃ©gal",
+                "République du Sénégal",
                 "SN"
               ]
             },
@@ -42011,7 +42011,7 @@
         {
           "id": "wereld-land-srb",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: ServiÃ«\nHoofdstad: Belgrade",
+          "back": "Land: Servië\nHoofdstad: Belgrade",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/srb-servi-regio.svg",
           "backImage": "",
@@ -42027,15 +42027,15 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "ServiÃ«",
+              "value": "Servië",
               "aliases": [
                 "RS",
                 "Republic of Serbia",
                 "Republika Srbija",
                 "Serbia",
                 "Srbija",
-                "Ð ÐµÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ° Ð¡Ñ€Ð±Ð¸Ñ˜Ð°",
-                "Ð¡Ñ€Ð±Ð¸Ñ˜Ð°"
+                "Република Србија",
+                "Србија"
               ]
             },
             {
@@ -42092,7 +42092,7 @@
         {
           "id": "wereld-land-svn",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: SloveniÃ«\nHoofdstad: Ljubljana",
+          "back": "Land: Slovenië\nHoofdstad: Ljubljana",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/svn-sloveni-regio.svg",
           "backImage": "",
@@ -42108,7 +42108,7 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "SloveniÃ«",
+              "value": "Slovenië",
               "aliases": [
                 "Republic of Slovenia",
                 "Republika Slovenija",
@@ -42153,7 +42153,7 @@
                 "SK",
                 "Slovak Republic",
                 "Slovakia",
-                "SlovenskÃ¡ republika"
+                "Slovenská republika"
               ]
             },
             {
@@ -42190,7 +42190,7 @@
               "label": "Land",
               "value": "Soedan",
               "aliases": [
-                "JumhÅ«rÄ«yat as-SÅ«dÄn",
+                "Jumhūrīyat as-Sūdān",
                 "Republic of the Sudan",
                 "SD",
                 "Sudan"
@@ -42212,7 +42212,7 @@
         {
           "id": "wereld-land-som",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: SomaliÃ«\nHoofdstad: Mogadishu",
+          "back": "Land: Somalië\nHoofdstad: Mogadishu",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/som-somali-regio.svg",
           "backImage": "",
@@ -42228,14 +42228,14 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "SomaliÃ«",
+              "value": "Somalië",
               "aliases": [
                 "Federal Republic of Somalia",
                 "Jamhuuriyadda Federaalka Soomaaliya",
-                "JumhÅ«riyyat aá¹£-á¹¢Å«mÄl al-FiderÄliyya",
+                "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya",
                 "SO",
                 "Somalia",
-                "aá¹£-á¹¢Å«mÄl"
+                "aṣ-Ṣūmāl"
               ]
             },
             {
@@ -42274,7 +42274,7 @@
               "aliases": [
                 "ES",
                 "Kingdom of Spain",
-                "Reino de EspaÃ±a",
+                "Reino de España",
                 "Spain"
               ]
             },
@@ -42314,7 +42314,7 @@
               "aliases": [
                 "Democratic Socialist Republic of Sri Lanka",
                 "LK",
-                "ilaá¹…kai"
+                "ilaṅkai"
               ]
             },
             {
@@ -42419,7 +42419,7 @@
         {
           "id": "wereld-land-syr",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: SyriÃ«\nHoofdstad: Damascus",
+          "back": "Land: Syrië\nHoofdstad: Damascus",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/syr-syri-regio.svg",
           "backImage": "",
@@ -42435,9 +42435,9 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "SyriÃ«",
+              "value": "Syrië",
               "aliases": [
-                "Al-JumhÅ«rÄ«yah Al-Ê»ArabÄ«yah As-SÅ«rÄ«yah",
+                "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah",
                 "SY",
                 "Syria",
                 "Syrian Arab Republic"
@@ -42480,9 +42480,9 @@
                 "Republic of Tajikistan",
                 "TJ",
                 "Tajikistan",
-                "ToÃ§ikiston",
-                "Ã‡umhuriyi ToÃ§ikiston",
-                "Ò¶ÑƒÐ¼Ò³ÑƒÑ€Ð¸Ð¸ Ð¢Ð¾Ò·Ð¸ÐºÐ¸ÑÑ‚Ð¾Ð½"
+                "Toçikiston",
+                "Çumhuriyi Toçikiston",
+                "Ҷумҳурии Тоҷикистон"
               ]
             },
             {
@@ -42564,7 +42564,7 @@
                 "Ratcha Anachak Thai",
                 "TH",
                 "Thai",
-                "à¸£à¸²à¸Šà¸­à¸²à¸“à¸²à¸ˆà¸±à¸à¸£à¹„à¸—à¸¢"
+                "ราชอาณาจักรไทย"
               ]
             },
             {
@@ -42583,7 +42583,7 @@
         {
           "id": "wereld-land-tgo",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Togo\nHoofdstad: LomÃ©",
+          "back": "Land: Togo\nHoofdstad: Lomé",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/tgo-togo-regio.svg",
           "backImage": "",
@@ -42601,7 +42601,7 @@
               "label": "Land",
               "value": "Togo",
               "aliases": [
-                "RÃ©publique Togolaise",
+                "République Togolaise",
                 "TG",
                 "Togolese",
                 "Togolese Republic"
@@ -42609,9 +42609,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "LomÃ©",
+              "value": "Lomé",
               "aliases": [
-                "LomÃ©"
+                "Lomé"
               ]
             }
           ],
@@ -42682,7 +42682,7 @@
               "aliases": [
                 "Chad",
                 "Republic of Chad",
-                "RÃ©publique du Tchad",
+                "République du Tchad",
                 "TD",
                 "Tchad"
               ]
@@ -42703,7 +42703,7 @@
         {
           "id": "wereld-land-cze",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: TsjechiÃ«\nHoofdstad: Prague",
+          "back": "Land: Tsjechië\nHoofdstad: Prague",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/cze-tsjechi-regio.svg",
           "backImage": "",
@@ -42719,13 +42719,13 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "TsjechiÃ«",
+              "value": "Tsjechië",
               "aliases": [
                 "CZ",
                 "Czech Republic",
                 "Czechia",
-                "ÄŒesko",
-                "ÄŒeskÃ¡ republika"
+                "Česko",
+                "Česká republika"
               ]
             },
             {
@@ -42744,7 +42744,7 @@
         {
           "id": "wereld-land-tun",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: TunesiÃ«\nHoofdstad: Tunis",
+          "back": "Land: Tunesië\nHoofdstad: Tunis",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/tun-tunesi-regio.svg",
           "backImage": "",
@@ -42760,13 +42760,13 @@
           "answerFields": [
             {
               "label": "Land",
-              "value": "TunesiÃ«",
+              "value": "Tunesië",
               "aliases": [
                 "Republic of Tunisia",
                 "TN",
                 "Tunisia",
                 "Tunisian Republic",
-                "al-JumhÅ«riyyah at-TÅ«nisiyyah"
+                "al-Jumhūriyyah at-Tūnisiyyah"
               ]
             },
             {
@@ -42804,12 +42804,12 @@
               "value": "Turkije",
               "aliases": [
                 "Republic of Turkey",
-                "Republic of TÃ¼rkiye",
+                "Republic of Türkiye",
                 "TR",
                 "Turkey",
                 "Turkiye",
-                "TÃ¼rkiye",
-                "TÃ¼rkiye Cumhuriyeti"
+                "Türkiye",
+                "Türkiye Cumhuriyeti"
               ]
             },
             {
@@ -42884,7 +42884,7 @@
               "value": "Uruguay",
               "aliases": [
                 "Oriental Republic of Uruguay",
-                "RepÃºblica Oriental del Uruguay",
+                "República Oriental del Uruguay",
                 "UY"
               ]
             },
@@ -42924,7 +42924,7 @@
               "aliases": [
                 "Republic of Vanuatu",
                 "Ripablik blong Vanuatu",
-                "RÃ©publique de Vanuatu",
+                "République de Vanuatu",
                 "VU"
               ]
             },
@@ -42963,7 +42963,7 @@
               "value": "Venezuela",
               "aliases": [
                 "Bolivarian Republic of Venezuela",
-                "RepÃºblica Bolivariana de Venezuela",
+                "República Bolivariana de Venezuela",
                 "VE",
                 "Venezuela, Bolivarian Republic of"
               ]
@@ -43124,7 +43124,7 @@
               "label": "Land",
               "value": "Vietnam",
               "aliases": [
-                "Cá»™ng hÃ²a XÃ£ há»™i chá»§ nghÄ©a Viá»‡t Nam",
+                "Cộng hòa Xã hội chủ nghĩa Việt Nam",
                 "Socialist Republic of Vietnam",
                 "VN",
                 "Viet Nam"
@@ -43166,10 +43166,10 @@
               "aliases": [
                 "BY",
                 "Belarus",
-                "BielaruÅ›",
+                "Bielaruś",
                 "Republic of Belarus",
-                "Ð‘ÐµÐ»Ð¾Ñ€ÑƒÑÑÐ¸Ñ",
-                "Ð ÐµÑÐ¿ÑƒÐ±Ð»Ð¸ÐºÐ° Ð‘ÐµÐ»Ð¾Ñ€ÑƒÑÑÐ¸Ñ"
+                "Белоруссия",
+                "Республика Белоруссия"
               ]
             },
             {
@@ -43329,8 +43329,8 @@
                 "Korea, Republic of",
                 "Republic of Korea",
                 "South Korea",
-                "ë‚¨ì¡°ì„ ",
-                "ë‚¨í•œ"
+                "남조선",
+                "남한"
               ]
             },
             {

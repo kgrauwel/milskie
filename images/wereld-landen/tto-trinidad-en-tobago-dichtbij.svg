@@ -26,6 +26,6 @@
       <path d="M244.3,174.5 L246.5,174.6 L248.5,174.7 L250.8,175.6 L251.8,176.5 L254.1,176.2 L255.0,176.8 L257.1,178.4 L258.7,179.6 L259.5,179.6 L261.0,180.1 L260.8,180.9 L262.7,181.0 L264.6,182.0 L264.3,182.6 L262.6,183.0 L260.9,183.1 L259.2,182.9 L255.6,183.2 L257.3,181.7 L256.3,181.0 L254.7,180.8 L253.8,180.1 L253.2,178.6 L251.8,178.7 L249.5,178.0 L248.7,177.5 L245.4,177.1 L244.6,176.5 L245.5,175.9 L243.1,175.8 L241.3,177.1 L240.2,177.2 L239.9,177.8 L238.6,178.1 L237.6,177.8 L238.9,177.0 L239.4,176.1 L240.6,175.5 L241.8,175.0 L243.7,174.7 L244.3,174.5 Z" fill="#e7ece6" stroke="#9ca89f" stroke-width="0.6" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
       <path d="M295.8,206.9 L297.2,206.6 L297.8,206.7 L297.7,208.6 L295.6,208.9 L295.1,208.7 L295.9,207.9 L295.8,206.9 Z" fill="#e7ece6" stroke="#9ca89f" stroke-width="0.6" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
   </g>
-  <path d="M295.8,206.9 L297.2,206.6 L297.8,206.7 L297.7,208.6 L295.6,208.9 L295.1,208.7 L295.9,207.9 L295.8,206.9 Z" fill="#2f7d4f" stroke="#173f3a" stroke-width="1.8" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
-  <circle cx="297.7" cy="206.3" r="4.8" fill="#c2563d" stroke="#ffffff" stroke-width="1.4"/>
+  <path d="M295.8,206.9 L297.2,206.6 L297.8,206.7 L297.7,208.6 L295.6,208.9 L295.1,208.7 L295.9,207.9 L295.8,206.9 Z" fill="#146c65" stroke="#ffffff" stroke-width="5.2" stroke-linejoin="round" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
+  <path d="M295.8,206.9 L297.2,206.6 L297.8,206.7 L297.7,208.6 L295.6,208.9 L295.1,208.7 L295.9,207.9 L295.8,206.9 Z" fill="#146c65" stroke="#062f2b" stroke-width="2.4" stroke-linejoin="round" fill-rule="evenodd" vector-effect="non-scaling-stroke"/>
 </svg>
