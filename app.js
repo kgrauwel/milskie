@@ -1,5 +1,5 @@
 const STORAGE_KEY = "flashcards.app.v1";
-const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v3";
+const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v4";
 const STATIC_LIBRARY_URL = "./data/flashcards.json";
 const COLORS = ["#146c65", "#315c9b", "#c2563d", "#2f7d4f", "#b7791f", "#6f4e7c"];
 

@@ -36834,7 +36834,7 @@
         {
           "id": "wereld-land-afg",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Afghanistan\nHoofdstad: Kabul",
+          "back": "Land: Afghanistan\nHoofdstad: Kaboel",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/afg-afghanistan-regio.svg",
           "backImage": "",
@@ -36860,8 +36860,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Kabul",
+              "value": "Kaboel",
               "aliases": [
+                "Kaboel",
                 "Kabul"
               ]
             }
@@ -37038,7 +37039,7 @@
         {
           "id": "wereld-land-arm",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Armenië\nHoofdstad: Yerevan",
+          "back": "Land: Armenië\nHoofdstad: Jerevan",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/arm-armeni-regio.svg",
           "backImage": "",
@@ -37065,8 +37066,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Yerevan",
+              "value": "Jerevan",
               "aliases": [
+                "Jerevan",
                 "Yerevan"
               ]
             }
@@ -37118,7 +37120,7 @@
         {
           "id": "wereld-land-aze",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Azerbeidzjan\nHoofdstad: Baku",
+          "back": "Land: Azerbeidzjan\nHoofdstad: Bakoe",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/aze-azerbeidzjan-regio.svg",
           "backImage": "",
@@ -37144,8 +37146,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Baku",
+              "value": "Bakoe",
               "aliases": [
+                "Bakoe",
                 "Baku"
               ]
             }
@@ -37238,7 +37241,7 @@
         {
           "id": "wereld-land-bel",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: België\nHoofdstad: Brussels",
+          "back": "Land: België\nHoofdstad: Brussel",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/bel-belgi-regio.svg",
           "backImage": "",
@@ -37269,9 +37272,11 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Brussels",
+              "value": "Brussel",
               "aliases": [
-                "Brussels"
+                "Brussel",
+                "Brussels",
+                "Bruxelles"
               ]
             }
           ],
@@ -37521,7 +37526,7 @@
         {
           "id": "wereld-land-bra",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Brazilië\nHoofdstad: Brasília",
+          "back": "Land: Brazilië\nHoofdstad: Brasilia",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, South America",
           "frontImage": "./images/wereld-landen/bra-brazili-regio.svg",
           "backImage": "",
@@ -37548,8 +37553,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Brasília",
+              "value": "Brasilia",
               "aliases": [
+                "Brasilia",
                 "Brasília"
               ]
             }
@@ -37876,7 +37882,7 @@
         {
           "id": "wereld-land-chn",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: China\nHoofdstad: Beijing",
+          "back": "Land: China\nHoofdstad: Peking",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/chn-china-regio.svg",
           "backImage": "",
@@ -37906,9 +37912,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Beijing",
+              "value": "Peking",
               "aliases": [
-                "Beijing"
+                "Beijing",
+                "Peking"
               ]
             }
           ],
@@ -38161,7 +38168,7 @@
         {
           "id": "wereld-land-dnk",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Denemarken\nHoofdstad: Copenhagen",
+          "back": "Land: Denemarken\nHoofdstad: Kopenhagen",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/dnk-denemarken-regio.svg",
           "backImage": "",
@@ -38188,9 +38195,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Copenhagen",
+              "value": "Kopenhagen",
               "aliases": [
-                "Copenhagen"
+                "Copenhagen",
+                "Kopenhagen"
               ]
             }
           ],
@@ -38283,7 +38291,7 @@
         {
           "id": "wereld-land-deu",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Duitsland\nHoofdstad: Berlin",
+          "back": "Land: Duitsland\nHoofdstad: Berlijn",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/deu-duitsland-regio.svg",
           "backImage": "",
@@ -38309,8 +38317,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Berlin",
+              "value": "Berlijn",
               "aliases": [
+                "Berlijn",
                 "Berlin"
               ]
             }
@@ -38362,7 +38371,7 @@
         {
           "id": "wereld-land-egy",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Egypte\nHoofdstad: Cairo",
+          "back": "Land: Egypte\nHoofdstad: Caïro",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/egy-egypte-regio.svg",
           "backImage": "",
@@ -38387,9 +38396,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Cairo",
+              "value": "Caïro",
               "aliases": [
-                "Cairo"
+                "Cairo",
+                "Caïro"
               ]
             }
           ],
@@ -38565,7 +38575,7 @@
         {
           "id": "wereld-land-eth",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Ethiopië\nHoofdstad: Addis Ababa",
+          "back": "Land: Ethiopië\nHoofdstad: Addis Abeba",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/eth-ethiopi-regio.svg",
           "backImage": "",
@@ -38592,9 +38602,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Addis Ababa",
+              "value": "Addis Abeba",
               "aliases": [
-                "Addis Ababa"
+                "Addis Ababa",
+                "Addis Abeba"
               ]
             }
           ],
@@ -38728,7 +38739,7 @@
         {
           "id": "wereld-land-fra",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Frankrijk\nHoofdstad: Paris",
+          "back": "Land: Frankrijk\nHoofdstad: Parijs",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/fra-frankrijk-regio.svg",
           "backImage": "",
@@ -38754,8 +38765,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Paris",
+              "value": "Parijs",
               "aliases": [
+                "Parijs",
                 "Paris"
               ]
             }
@@ -38923,7 +38935,7 @@
         {
           "id": "wereld-land-grc",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Griekenland\nHoofdstad: Athens",
+          "back": "Land: Griekenland\nHoofdstad: Athene",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/grc-griekenland-regio.svg",
           "backImage": "",
@@ -38950,8 +38962,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Athens",
+              "value": "Athene",
               "aliases": [
+                "Athene",
                 "Athens"
               ]
             }
@@ -39200,7 +39213,7 @@
         {
           "id": "wereld-land-hun",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Hongarije\nHoofdstad: Budapest",
+          "back": "Land: Hongarije\nHoofdstad: Boedapest",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/hun-hongarije-regio.svg",
           "backImage": "",
@@ -39225,8 +39238,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Budapest",
+              "value": "Boedapest",
               "aliases": [
+                "Boedapest",
                 "Budapest"
               ]
             }
@@ -39402,7 +39416,7 @@
         {
           "id": "wereld-land-irq",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Irak\nHoofdstad: Baghdad",
+          "back": "Land: Irak\nHoofdstad: Bagdad",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/irq-irak-regio.svg",
           "backImage": "",
@@ -39428,8 +39442,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Baghdad",
+              "value": "Bagdad",
               "aliases": [
+                "Bagdad",
                 "Baghdad"
               ]
             }
@@ -39442,7 +39457,7 @@
         {
           "id": "wereld-land-irn",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Iran\nHoofdstad: Tehran",
+          "back": "Land: Iran\nHoofdstad: Teheran",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/irn-iran-regio.svg",
           "backImage": "",
@@ -39468,8 +39483,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Tehran",
+              "value": "Teheran",
               "aliases": [
+                "Teheran",
                 "Tehran"
               ]
             }
@@ -39482,7 +39498,7 @@
         {
           "id": "wereld-land-isr",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Israël\nHoofdstad: Jerusalem",
+          "back": "Land: Israël\nHoofdstad: Jeruzalem",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/isr-isra-l-regio.svg",
           "backImage": "",
@@ -39508,9 +39524,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Jerusalem",
+              "value": "Jeruzalem",
               "aliases": [
-                "Jerusalem"
+                "Jerusalem",
+                "Jeruzalem"
               ]
             }
           ],
@@ -39642,7 +39659,7 @@
         {
           "id": "wereld-land-jpn",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Japan\nHoofdstad: Tokyo",
+          "back": "Land: Japan\nHoofdstad: Tokio",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/jpn-japan-regio.svg",
           "backImage": "",
@@ -39667,8 +39684,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Tokyo",
+              "value": "Tokio",
               "aliases": [
+                "Tokio",
                 "Tokyo"
               ]
             }
@@ -39762,7 +39780,7 @@
         {
           "id": "wereld-land-cmr",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Kameroen\nHoofdstad: Yaoundé",
+          "back": "Land: Kameroen\nHoofdstad: Jaoende",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/cmr-kameroen-regio.svg",
           "backImage": "",
@@ -39788,8 +39806,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Yaoundé",
+              "value": "Jaoende",
               "aliases": [
+                "Jaoende",
                 "Yaoundé"
               ]
             }
@@ -40288,7 +40307,7 @@
         {
           "id": "wereld-land-lux",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Luxemburg\nHoofdstad: Luxembourg",
+          "back": "Land: Luxemburg\nHoofdstad: Luxemburg",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/lux-luxemburg-regio.svg",
           "backImage": "",
@@ -40316,9 +40335,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Luxembourg",
+              "value": "Luxemburg",
               "aliases": [
-                "Luxembourg"
+                "Luxembourg",
+                "Luxemburg"
               ]
             }
           ],
@@ -40566,7 +40586,7 @@
         {
           "id": "wereld-land-mex",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Mexico\nHoofdstad: Mexico City",
+          "back": "Land: Mexico\nHoofdstad: Mexico-Stad",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, North America",
           "frontImage": "./images/wereld-landen/mex-mexico-regio.svg",
           "backImage": "",
@@ -40592,9 +40612,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Mexico City",
+              "value": "Mexico-Stad",
               "aliases": [
-                "Mexico City"
+                "Mexico City",
+                "Mexico-Stad"
               ]
             }
           ],
@@ -41277,6 +41298,7 @@
               "label": "Hoofdstad",
               "value": "Kyiv",
               "aliases": [
+                "Kiev",
                 "Kyiv"
               ]
             }
@@ -41414,7 +41436,7 @@
         {
           "id": "wereld-land-aut",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Oostenrijk\nHoofdstad: Vienna",
+          "back": "Land: Oostenrijk\nHoofdstad: Wenen",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/aut-oostenrijk-regio.svg",
           "backImage": "",
@@ -41441,9 +41463,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Vienna",
+              "value": "Wenen",
               "aliases": [
-                "Vienna"
+                "Vienna",
+                "Wenen"
               ]
             }
           ],
@@ -41495,7 +41518,7 @@
         {
           "id": "wereld-land-pan",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Panama\nHoofdstad: Panama City",
+          "back": "Land: Panama\nHoofdstad: Panama-Stad",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, North America",
           "frontImage": "./images/wereld-landen/pan-panama-regio.svg",
           "backImage": "",
@@ -41520,9 +41543,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Panama City",
+              "value": "Panama-Stad",
               "aliases": [
-                "Panama City"
+                "Panama City",
+                "Panama-Stad"
               ]
             }
           ],
@@ -41653,7 +41677,7 @@
         {
           "id": "wereld-land-pol",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Polen\nHoofdstad: Warsaw",
+          "back": "Land: Polen\nHoofdstad: Warschau",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/pol-polen-regio.svg",
           "backImage": "",
@@ -41679,9 +41703,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Warsaw",
+              "value": "Warschau",
               "aliases": [
-                "Warsaw"
+                "Warsaw",
+                "Warschau"
               ]
             }
           ],
@@ -41693,7 +41718,7 @@
         {
           "id": "wereld-land-prt",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Portugal\nHoofdstad: Lisbon",
+          "back": "Land: Portugal\nHoofdstad: Lissabon",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/prt-portugal-regio.svg",
           "backImage": "",
@@ -41719,9 +41744,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Lisbon",
+              "value": "Lissabon",
               "aliases": [
-                "Lisbon"
+                "Lisbon",
+                "Lissabon"
               ]
             }
           ],
@@ -41772,7 +41798,7 @@
         {
           "id": "wereld-land-rou",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Roemenië\nHoofdstad: Bucharest",
+          "back": "Land: Roemenië\nHoofdstad: Boekarest",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/rou-roemeni-regio.svg",
           "backImage": "",
@@ -41799,8 +41825,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Bucharest",
+              "value": "Boekarest",
               "aliases": [
+                "Boekarest",
                 "Bucharest"
               ]
             }
@@ -41813,7 +41840,7 @@
         {
           "id": "wereld-land-rus",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Rusland\nHoofdstad: Moscow",
+          "back": "Land: Rusland\nHoofdstad: Moskou",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/rus-rusland-regio.svg",
           "backImage": "",
@@ -41839,9 +41866,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Moscow",
+              "value": "Moskou",
               "aliases": [
-                "Moscow"
+                "Moscow",
+                "Moskou"
               ]
             }
           ],
@@ -41931,7 +41959,7 @@
         {
           "id": "wereld-land-sau",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Saoedi-Arabië\nHoofdstad: Riyadh",
+          "back": "Land: Saoedi-Arabië\nHoofdstad: Riyad",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/sau-saoedi-arabi-regio.svg",
           "backImage": "",
@@ -41958,8 +41986,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Riyadh",
+              "value": "Riyad",
               "aliases": [
+                "Riyad",
                 "Riyadh"
               ]
             }
@@ -42011,7 +42040,7 @@
         {
           "id": "wereld-land-srb",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Servië\nHoofdstad: Belgrade",
+          "back": "Land: Servië\nHoofdstad: Belgrado",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/srb-servi-regio.svg",
           "backImage": "",
@@ -42040,9 +42069,10 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Belgrade",
+              "value": "Belgrado",
               "aliases": [
-                "Belgrade"
+                "Belgrade",
+                "Belgrado"
               ]
             }
           ],
@@ -42172,7 +42202,7 @@
         {
           "id": "wereld-land-sdn",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Soedan\nHoofdstad: Khartoum",
+          "back": "Land: Soedan\nHoofdstad: Khartoem",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/sdn-soedan-regio.svg",
           "backImage": "",
@@ -42198,8 +42228,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Khartoum",
+              "value": "Khartoem",
               "aliases": [
+                "Khartoem",
                 "Khartoum"
               ]
             }
@@ -42703,7 +42734,7 @@
         {
           "id": "wereld-land-cze",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Tsjechië\nHoofdstad: Prague",
+          "back": "Land: Tsjechië\nHoofdstad: Praag",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/cze-tsjechi-regio.svg",
           "backImage": "",
@@ -42730,8 +42761,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Prague",
+              "value": "Praag",
               "aliases": [
+                "Praag",
                 "Prague"
               ]
             }
@@ -42984,7 +43016,7 @@
         {
           "id": "wereld-land-gbr",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Verenigd Koninkrijk\nHoofdstad: London",
+          "back": "Land: Verenigd Koninkrijk\nHoofdstad: Londen",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Europe",
           "frontImage": "./images/wereld-landen/gbr-verenigd-koninkrijk-regio.svg",
           "backImage": "",
@@ -43011,8 +43043,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "London",
+              "value": "Londen",
               "aliases": [
+                "Londen",
                 "London"
               ]
             }
@@ -43025,7 +43058,7 @@
         {
           "id": "wereld-land-are",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Verenigde Arabische Emiraten\nHoofdstad: Abu Dhabi",
+          "back": "Land: Verenigde Arabische Emiraten\nHoofdstad: Aboe Dhabi",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/are-verenigde-arabische-emiraten-regio.svg",
           "backImage": "",
@@ -43051,8 +43084,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Abu Dhabi",
+              "value": "Aboe Dhabi",
               "aliases": [
+                "Aboe Dhabi",
                 "Abu Dhabi"
               ]
             }
@@ -43264,7 +43298,7 @@
         {
           "id": "wereld-land-zaf",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Zuid-Afrika\nHoofdstad: Pretoria, Bloemfontein, Cape Town",
+          "back": "Land: Zuid-Afrika\nHoofdstad: Pretoria, Bloemfontein, Kaapstad",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Africa",
           "frontImage": "./images/wereld-landen/zaf-zuid-afrika-regio.svg",
           "backImage": "",
@@ -43291,11 +43325,12 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Pretoria, Bloemfontein, Cape Town",
+              "value": "Pretoria, Bloemfontein, Kaapstad",
               "aliases": [
-                "Pretoria",
                 "Bloemfontein",
-                "Cape Town"
+                "Cape Town",
+                "Kaapstad",
+                "Pretoria"
               ]
             }
           ],
@@ -43307,7 +43342,7 @@
         {
           "id": "wereld-land-kor",
           "front": "Welk land? Hoofdstad?",
-          "back": "Land: Zuid-Korea\nHoofdstad: Seoul",
+          "back": "Land: Zuid-Korea\nHoofdstad: Seoel",
           "tags": "wereld, landen, hoofdsteden, aardrijkskunde, Asia",
           "frontImage": "./images/wereld-landen/kor-zuid-korea-regio.svg",
           "backImage": "",
@@ -43335,8 +43370,9 @@
             },
             {
               "label": "Hoofdstad",
-              "value": "Seoul",
+              "value": "Seoel",
               "aliases": [
+                "Seoel",
                 "Seoul"
               ]
             }
