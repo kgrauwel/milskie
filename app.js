@@ -1,5 +1,5 @@
 const STORAGE_KEY = "flashcards.app.v1";
-const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v2";
+const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v3";
 const STATIC_LIBRARY_URL = "./data/flashcards.json";
 const COLORS = ["#146c65", "#315c9b", "#c2563d", "#2f7d4f", "#b7791f", "#6f4e7c"];
 
@@ -204,9 +204,9 @@ function normalizeState(input) {
   const decks = decksInput
     .filter((deck) => deck && typeof deck === "object")
     .map((deck, deckIndex) => ({
-      id: String(deck.id || uid()),
-      title: String(deck.title || `Set ${deckIndex + 1}`),
-      description: String(deck.description || ""),
+      id: textValue(deck.id || uid()),
+      title: textValue(deck.title || `Set ${deckIndex + 1}`),
+      description: textValue(deck.description || ""),
       color: COLORS.includes(deck.color) ? deck.color : COLORS[deckIndex % COLORS.length],
       cards: normalizeCards(deck.cards)
     }));
@@ -221,6 +221,87 @@ function normalizeState(input) {
     activeDeckId,
     settings: normalizeSettings(input.settings)
   };
+}
+
+function textValue(value) {
+  return repairMojibake(String(value || ""));
+}
+
+function repairMojibake(value) {
+  if (!/[ÃÂ]/.test(value)) {
+    return value;
+  }
+
+  const replacements = {
+    "Ã€": "À",
+    "ÃÁ": "Á",
+    "Ã‚": "Â",
+    "Ãƒ": "Ã",
+    "Ã„": "Ä",
+    "Ã…": "Å",
+    "Ã†": "Æ",
+    "Ã‡": "Ç",
+    "Ãˆ": "È",
+    "Ã‰": "É",
+    "ÃŠ": "Ê",
+    "Ã‹": "Ë",
+    "ÃŒ": "Ì",
+    "ÃÍ": "Í",
+    "ÃŽ": "Î",
+    "ÃÏ": "Ï",
+    "Ã‘": "Ñ",
+    "Ã’": "Ò",
+    "Ã“": "Ó",
+    "Ã”": "Ô",
+    "Ã•": "Õ",
+    "Ã–": "Ö",
+    "Ã˜": "Ø",
+    "Ã™": "Ù",
+    "Ãš": "Ú",
+    "Ã›": "Û",
+    "Ãœ": "Ü",
+    "ÃÝ": "Ý",
+    "Ã¡": "á",
+    "Ã ": "à",
+    "Ã¢": "â",
+    "Ã£": "ã",
+    "Ã¤": "ä",
+    "Ã¥": "å",
+    "Ã¦": "æ",
+    "Ã§": "ç",
+    "Ã¨": "è",
+    "Ã©": "é",
+    "Ãª": "ê",
+    "Ã«": "ë",
+    "Ã¬": "ì",
+    "Ã­": "í",
+    "Ã®": "î",
+    "Ã¯": "ï",
+    "Ã°": "ð",
+    "Ã±": "ñ",
+    "Ã²": "ò",
+    "Ã³": "ó",
+    "Ã´": "ô",
+    "Ãµ": "õ",
+    "Ã¶": "ö",
+    "Ã¸": "ø",
+    "Ã¹": "ù",
+    "Ãº": "ú",
+    "Ã»": "û",
+    "Ã¼": "ü",
+    "Ã½": "ý",
+    "Ã¿": "ÿ",
+    "Â°": "°",
+    "Â«": "«",
+    "Â»": "»",
+    "Â·": "·",
+    "Â": ""
+  };
+
+  return Object.entries(replacements).reduce(
+    (text, [wrong, right]) => text.split(wrong).join(right),
+    value
+  );
 }
 
 function normalizeSettings(settings) {
@@ -259,23 +340,23 @@ function normalizeCards(cards) {
   return cards
     .filter((card) => card && typeof card === "object")
     .map((card) => ({
-      id: String(card.id || uid()),
-      front: String(card.front || ""),
-      back: String(card.back || ""),
-      tags: String(card.tags || ""),
-      frontImage: String(card.frontImage || ""),
-      backImage: String(card.backImage || ""),
+      id: textValue(card.id || uid()),
+      front: textValue(card.front || ""),
+      back: textValue(card.back || ""),
+      tags: textValue(card.tags || ""),
+      frontImage: textValue(card.frontImage || ""),
+      backImage: textValue(card.backImage || ""),
       zoomImages: normalizeStringList(card.zoomImages),
-      frontAudio: String(card.frontAudio || ""),
-      backAudio: String(card.backAudio || ""),
-      frontLang: String(card.frontLang || ""),
-      backLang: String(card.backLang || ""),
-      cardType: String(card.cardType || ""),
+      frontAudio: textValue(card.frontAudio || ""),
+      backAudio: textValue(card.backAudio || ""),
+      frontLang: textValue(card.frontLang || ""),
+      backLang: textValue(card.backLang || ""),
+      cardType: textValue(card.cardType || ""),
       answerFields: normalizeAnswerFields(card.answerFields),
       correct: toNumber(card.correct),
       again: toNumber(card.again),
       reviewed: toNumber(card.reviewed),
-      lastReviewed: String(card.lastReviewed || "")
+      lastReviewed: textValue(card.lastReviewed || "")
     }))
     .filter((card) => card.front.trim() || card.back.trim());
 }
@@ -284,7 +365,7 @@ function normalizeStringList(items) {
   if (!Array.isArray(items)) {
     return [];
   }
-  return items.map((item) => String(item || "")).filter(Boolean);
+  return items.map((item) => textValue(item || "")).filter(Boolean);
 }
 
 function normalizeAnswerFields(fields) {
@@ -295,9 +376,9 @@ function normalizeAnswerFields(fields) {
   return fields
     .filter((field) => field && typeof field === "object")
     .map((field, index) => ({
-      label: String(field.label || `Antwoord ${index + 1}`),
-      value: String(field.value || ""),
-      aliases: Array.isArray(field.aliases) ? field.aliases.map((alias) => String(alias || "")).filter(Boolean) : []
+      label: textValue(field.label || `Antwoord ${index + 1}`),
+      value: textValue(field.value || ""),
+      aliases: Array.isArray(field.aliases) ? field.aliases.map((alias) => textValue(alias || "")).filter(Boolean) : []
     }))
     .filter((field) => field.value.trim());
 }
