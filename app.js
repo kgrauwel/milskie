@@ -2,7 +2,6 @@ const STORAGE_KEY = "flashcards.app.v1";
 const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v6";
 const STATIC_LIBRARY_URL = "./data/flashcards.json";
 const COLORS = ["#146c65", "#315c9b", "#c2563d", "#2f7d4f", "#b7791f", "#6f4e7c"];
-const REWARD_PIECE_COUNT = 16;
 const REWARD_MESSAGES = ["Goed bezig!", "Mooi!", "Sterk!", "Top gedaan!", "Je bent op dreef!"];
 const REWARD_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
   <rect width="400" height="400" fill="#f7f6ef"/>
@@ -78,6 +77,9 @@ const study = {
   roundKnown: 0,
   roundAgain: 0,
   rewardPieces: 0,
+  rewardOrder: [],
+  rewardOrderTarget: 0,
+  rewardGrid: { columns: 0, rows: 0 },
   rewardComplete: false
 };
 
@@ -765,7 +767,14 @@ function renderRewardPuzzle(totalCards) {
 
   const target = rewardTarget(totalCards);
   const revealed = Math.min(study.rewardPieces, target);
+  const order = ensureRewardOrder(target);
+  const grid = rewardGrid(target);
+  const pieceCount = grid.columns * grid.rows;
+  const activePieces = new Set(order);
+  const revealedPieces = new Set(order.slice(0, revealed));
   els.rewardMetric.textContent = `${revealed} / ${target}`;
+  els.rewardPuzzle.style.setProperty("--reward-columns", String(grid.columns || 1));
+  els.rewardPuzzle.style.setProperty("--reward-rows", String(grid.rows || 1));
   els.rewardCaption.textContent = target
     ? revealed >= target
       ? "Puzzel klaar. Goed gewerkt!"
@@ -775,27 +784,67 @@ function renderRewardPuzzle(totalCards) {
   const imageUrl = `url("data:image/svg+xml,${encodeURIComponent(REWARD_SVG)}")`;
   els.rewardPuzzle.replaceChildren();
 
-  for (let index = 0; index < REWARD_PIECE_COUNT; index += 1) {
+  for (let index = 0; index < pieceCount; index += 1) {
     const piece = document.createElement("div");
-    const active = index < target;
-    piece.className = `reward-piece${index < revealed ? " revealed" : ""}${active ? "" : " placeholder"}`;
-    if (active) {
-      const column = index % 4;
-      const row = Math.floor(index / 4);
+    const active = activePieces.has(index);
+    const isRevealed = revealedPieces.has(index);
+    piece.className = `reward-piece${isRevealed ? " revealed" : ""}${active ? "" : " placeholder"}`;
+    if (isRevealed) {
+      const column = index % grid.columns;
+      const row = Math.floor(index / grid.columns);
       piece.style.backgroundImage = imageUrl;
-      piece.style.backgroundSize = "400% 400%";
-      piece.style.backgroundPosition = `${column * 33.3333}% ${row * 33.3333}%`;
+      piece.style.backgroundSize = `${grid.columns * 100}% ${grid.rows * 100}%`;
+      piece.style.backgroundPosition = `${grid.columns === 1 ? 0 : (column / (grid.columns - 1)) * 100}% ${grid.rows === 1 ? 0 : (row / (grid.rows - 1)) * 100}%`;
     }
     els.rewardPuzzle.append(piece);
   }
 }
 
+function ensureRewardOrder(target) {
+  const grid = rewardGrid(target);
+  const pieceCount = grid.columns * grid.rows;
+
+  if (!target) {
+    study.rewardOrder = [];
+    study.rewardOrderTarget = 0;
+    study.rewardGrid = grid;
+    return [];
+  }
+
+  if (
+    study.rewardOrderTarget !== target ||
+    study.rewardOrder.length !== target ||
+    study.rewardGrid.columns !== grid.columns ||
+    study.rewardGrid.rows !== grid.rows ||
+    study.rewardOrder.some((index) => index < 0 || index >= pieceCount)
+  ) {
+    study.rewardOrder = Array.from({ length: pieceCount }, (_, index) => index);
+    shuffleArray(study.rewardOrder);
+    study.rewardOrder = study.rewardOrder.slice(0, target);
+    study.rewardOrderTarget = target;
+    study.rewardGrid = grid;
+  }
+
+  return study.rewardOrder;
+}
+
 function rewardTarget(totalCards) {
-  return Math.min(REWARD_PIECE_COUNT, Math.max(0, totalCards));
+  return Math.max(0, totalCards);
+}
+
+function rewardGrid(target) {
+  if (!target) {
+    return { columns: 1, rows: 1 };
+  }
+
+  const columns = Math.ceil(Math.sqrt(target));
+  const rows = Math.ceil(target / columns);
+  return { columns, rows };
 }
 
 function addRewardPiece() {
   const target = rewardTarget(study.queue.length);
+  ensureRewardOrder(target);
   if (!target || study.rewardPieces >= target) {
     return;
   }
@@ -1529,6 +1578,9 @@ function resetRoundStats() {
   study.roundKnown = 0;
   study.roundAgain = 0;
   study.rewardPieces = 0;
+  study.rewardOrder = [];
+  study.rewardOrderTarget = 0;
+  study.rewardGrid = { columns: 0, rows: 0 };
   study.rewardComplete = false;
 }
 

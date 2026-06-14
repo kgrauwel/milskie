@@ -637,7 +637,8 @@ textarea {
 
 .reward-puzzle {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(var(--reward-columns, 4), 1fr);
+  grid-template-rows: repeat(var(--reward-rows, 4), 1fr);
   width: 100%;
   max-width: 210px;
   aspect-ratio: 1;
@@ -649,9 +650,9 @@ textarea {
 
 .reward-piece {
   border: 1px solid rgba(255, 255, 255, 0.72);
-  background-color: #d9e5e1;
+  background-color: #ffffff;
   background-repeat: no-repeat;
-  opacity: 0.16;
+  opacity: 1;
   transform: scale(0.94);
   transition: opacity 180ms ease, transform 180ms ease;
 }
@@ -663,7 +664,8 @@ textarea {
 
 .reward-piece.placeholder {
   background-image: none !important;
-  opacity: 0.34;
+  background-color: #f7f6ef;
+  opacity: 1;
 }
 
 .reward-caption {
