@@ -163,7 +163,8 @@ Daarmee kun je de vraag opnieuw bekijken.
 Dat is handig bij foto- en geluidskaarten, zoals vogels herkennen.
 
 Bij elk juist antwoord verschijnt er ook een stukje van de beloningspuzzel.
-Als alle stukjes zichtbaar zijn, is de grappige robot-tekening klaar.
+De app kiest per ronde willekeurig een studeer-tekening voor de puzzel.
+Als alle stukjes zichtbaar zijn, is de tekening klaar.
 Opnieuw starten zet de puzzel terug op nul.
 De lege vakjes blijven echt leeg, en de stukjes verschijnen in willekeurige volgorde.
 Het aantal puzzelstukjes volgt het aantal kaarten in de ronde, bijvoorbeeld 50 stukjes bij 50 vogelkaarten.

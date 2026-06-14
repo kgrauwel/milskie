@@ -3,6 +3,12 @@ const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v6";
 const STATIC_LIBRARY_URL = "./data/flashcards.json";
 const COLORS = ["#146c65", "#315c9b", "#c2563d", "#2f7d4f", "#b7791f", "#6f4e7c"];
 const REWARD_MESSAGES = ["Goed bezig!", "Mooi!", "Sterk!", "Top gedaan!", "Je bent op dreef!"];
+const REWARD_IMAGE_PATHS = [
+  "./images/puzzles/studeren1.jpg",
+  "./images/puzzles/studeren2.jpg",
+  "./images/puzzles/studeren3.jpg",
+  "./images/puzzles/studeren4.jpg"
+];
 const REWARD_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
   <rect width="400" height="400" fill="#f7f6ef"/>
   <circle cx="80" cy="82" r="34" fill="#ffe45c"/>
@@ -23,6 +29,7 @@ const REWARD_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400
   <path d="M88 314 C124 350 276 350 312 314" fill="none" stroke="#146c65" stroke-width="12" stroke-linecap="round"/>
   <path d="M310 72 l12 24 27 4 -20 19 5 27 -24 -13 -24 13 5 -27 -20 -19 27 -4z" fill="#ffe45c" stroke="#12312d" stroke-width="6"/>
 </svg>`;
+const REWARD_FALLBACK_IMAGE_URL = `data:image/svg+xml,${encodeURIComponent(REWARD_SVG)}`;
 const WORLD_DECK_ID = "deck-wereld-landen-hoofdsteden";
 const WORLD_CONTINENTS = [
   { value: "Europe", label: "Europa" },
@@ -80,6 +87,7 @@ const study = {
   rewardOrder: [],
   rewardOrderTarget: 0,
   rewardGrid: { columns: 0, rows: 0 },
+  rewardImageUrl: "",
   rewardComplete: false
 };
 
@@ -770,8 +778,10 @@ function renderRewardPuzzle(totalCards) {
   const order = ensureRewardOrder(target);
   const grid = rewardGrid(target);
   const pieceCount = grid.columns * grid.rows;
-  const activePieces = new Set(order);
-  const revealedPieces = new Set(order.slice(0, revealed));
+  const puzzleComplete = Boolean(target && revealed >= target);
+  const allPieces = Array.from({ length: pieceCount }, (_, index) => index);
+  const activePieces = new Set(puzzleComplete ? allPieces : order);
+  const revealedPieces = new Set(puzzleComplete ? allPieces : order.slice(0, revealed));
   els.rewardMetric.textContent = `${revealed} / ${target}`;
   els.rewardPuzzle.style.setProperty("--reward-columns", String(grid.columns || 1));
   els.rewardPuzzle.style.setProperty("--reward-rows", String(grid.rows || 1));
@@ -781,7 +791,7 @@ function renderRewardPuzzle(totalCards) {
       : "Elk juist antwoord maakt de puzzel verder."
     : "Kies kaarten om de puzzel te starten.";
 
-  const imageUrl = `url("data:image/svg+xml,${encodeURIComponent(REWARD_SVG)}")`;
+  const imageUrl = `url("${rewardImageUrl()}")`;
   els.rewardPuzzle.replaceChildren();
 
   for (let index = 0; index < pieceCount; index += 1) {
@@ -798,6 +808,22 @@ function renderRewardPuzzle(totalCards) {
     }
     els.rewardPuzzle.append(piece);
   }
+}
+
+function rewardImageUrl() {
+  if (!study.rewardImageUrl) {
+    study.rewardImageUrl = pickRewardImageUrl();
+  }
+
+  return study.rewardImageUrl;
+}
+
+function pickRewardImageUrl() {
+  if (!REWARD_IMAGE_PATHS.length) {
+    return REWARD_FALLBACK_IMAGE_URL;
+  }
+
+  return REWARD_IMAGE_PATHS[Math.floor(Math.random() * REWARD_IMAGE_PATHS.length)];
 }
 
 function ensureRewardOrder(target) {
@@ -1623,6 +1649,7 @@ function resetRoundStats() {
   study.rewardOrder = [];
   study.rewardOrderTarget = 0;
   study.rewardGrid = { columns: 0, rows: 0 };
+  study.rewardImageUrl = "";
   study.rewardComplete = false;
 }
 
