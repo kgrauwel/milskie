@@ -106,6 +106,16 @@ Bij Opties kun je kiezen:
 - Taal Codex leerjaar
   alle leerjaren, 1e Leerjaar tot 6e Leerjaar, of 1e ASO tot 6e ASO
 
+Voor de extra Engelse woordenlijst uit EN_NL_Woordenlijst1.pdf zijn er aparte keuzes:
+
+- 1e ASO Rob alle
+- 1e ASO Rob Chores
+- 1e ASO Rob Rooms in the house
+- 1e ASO Rob Cleaning supplies
+- 1e ASO Rob Talents
+- 1e ASO Rob Skills
+- 1e ASO Rob Jobs
+
 De knop Spreek is verwijderd, omdat de browserstem niet altijd goed Frans uitspreekt.
 
 

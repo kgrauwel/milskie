@@ -1,5 +1,5 @@
 const STORAGE_KEY = "flashcards.app.v1";
-const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v5";
+const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v6";
 const STATIC_LIBRARY_URL = "./data/flashcards.json";
 const COLORS = ["#146c65", "#315c9b", "#c2563d", "#2f7d4f", "#b7791f", "#6f4e7c"];
 const WORLD_DECK_ID = "deck-wereld-landen-hoofdsteden";
@@ -345,6 +345,13 @@ function isFrLevel(value) {
     "5e Leerjaar",
     "6e Leerjaar",
     "1e ASO",
+    "1e ASO Rob alle",
+    "1e ASO Rob Chores",
+    "1e ASO Rob Rooms in the house",
+    "1e ASO Rob Cleaning supplies",
+    "1e ASO Rob Talents",
+    "1e ASO Rob Skills",
+    "1e ASO Rob Jobs",
     "2e ASO",
     "3e ASO",
     "4e ASO",
