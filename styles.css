@@ -611,6 +611,66 @@ textarea {
   font-size: 1.3rem;
 }
 
+.reward-card {
+  display: grid;
+  gap: 8px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+}
+
+.reward-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.reward-heading span,
+.reward-caption {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.reward-heading strong {
+  font-size: 1.1rem;
+}
+
+.reward-puzzle {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  max-width: 210px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 2px solid rgba(20, 108, 101, 0.28);
+  border-radius: var(--radius);
+  background: #eef4f2;
+}
+
+.reward-piece {
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  background-color: #d9e5e1;
+  background-repeat: no-repeat;
+  opacity: 0.16;
+  transform: scale(0.94);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.reward-piece.revealed {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.reward-piece.placeholder {
+  background-image: none !important;
+  opacity: 0.34;
+}
+
+.reward-caption {
+  font-size: 0.86rem;
+  line-height: 1.25;
+}
+
 .stat-actions {
   margin-top: 4px;
 }

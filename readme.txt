@@ -158,6 +158,10 @@ Als je het antwoord ziet, verschijnt op de kaart een kleine schuine pijl.
 Daarmee kun je de vraag opnieuw bekijken.
 Dat is handig bij foto- en geluidskaarten, zoals vogels herkennen.
 
+Bij elk juist antwoord verschijnt er ook een stukje van de beloningspuzzel.
+Als alle stukjes zichtbaar zijn, is de grappige robot-tekening klaar.
+Opnieuw starten zet de puzzel terug op nul.
+
 
 7. SETS VERPLAATSEN
 -------------------

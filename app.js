@@ -2,6 +2,28 @@ const STORAGE_KEY = "flashcards.app.v1";
 const STATIC_LIBRARY_KEY = "flashcards.staticLibrary.v6";
 const STATIC_LIBRARY_URL = "./data/flashcards.json";
 const COLORS = ["#146c65", "#315c9b", "#c2563d", "#2f7d4f", "#b7791f", "#6f4e7c"];
+const REWARD_PIECE_COUNT = 16;
+const REWARD_MESSAGES = ["Goed bezig!", "Mooi!", "Sterk!", "Top gedaan!", "Je bent op dreef!"];
+const REWARD_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f7f6ef"/>
+  <circle cx="80" cy="82" r="34" fill="#ffe45c"/>
+  <path d="M72 54 L88 54 L88 33 L72 33 Z" fill="#c2563d"/>
+  <rect x="108" y="104" width="184" height="166" rx="32" fill="#7fb3ad" stroke="#12312d" stroke-width="10"/>
+  <rect x="146" y="64" width="108" height="54" rx="20" fill="#146c65" stroke="#12312d" stroke-width="8"/>
+  <line x1="200" y1="62" x2="200" y2="34" stroke="#12312d" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="200" cy="26" r="13" fill="#c2563d" stroke="#12312d" stroke-width="6"/>
+  <circle cx="165" cy="168" r="18" fill="#ffffff" stroke="#12312d" stroke-width="7"/>
+  <circle cx="235" cy="168" r="18" fill="#ffffff" stroke="#12312d" stroke-width="7"/>
+  <circle cx="165" cy="168" r="7" fill="#12312d"/>
+  <circle cx="235" cy="168" r="7" fill="#12312d"/>
+  <path d="M157 220 Q200 254 243 220" fill="none" stroke="#12312d" stroke-width="10" stroke-linecap="round"/>
+  <rect x="80" y="152" width="38" height="88" rx="18" fill="#315c9b" stroke="#12312d" stroke-width="8"/>
+  <rect x="282" y="152" width="38" height="88" rx="18" fill="#315c9b" stroke="#12312d" stroke-width="8"/>
+  <rect x="140" y="266" width="38" height="56" rx="14" fill="#c2563d" stroke="#12312d" stroke-width="8"/>
+  <rect x="222" y="266" width="38" height="56" rx="14" fill="#c2563d" stroke="#12312d" stroke-width="8"/>
+  <path d="M88 314 C124 350 276 350 312 314" fill="none" stroke="#146c65" stroke-width="12" stroke-linecap="round"/>
+  <path d="M310 72 l12 24 27 4 -20 19 5 27 -24 -13 -24 13 5 -27 -20 -19 27 -4z" fill="#ffe45c" stroke="#12312d" stroke-width="6"/>
+</svg>`;
 const WORLD_DECK_ID = "deck-wereld-landen-hoofdsteden";
 const WORLD_CONTINENTS = [
   { value: "Europe", label: "Europa" },
@@ -54,7 +76,9 @@ const study = {
   typedResult: "",
   peekQuestion: false,
   roundKnown: 0,
-  roundAgain: 0
+  roundAgain: 0,
+  rewardPieces: 0,
+  rewardComplete: false
 };
 
 const timer = {
@@ -114,6 +138,10 @@ const els = {
   progressMetric: document.querySelector("#progressMetric"),
   knownMetric: document.querySelector("#knownMetric"),
   againMetric: document.querySelector("#againMetric"),
+  rewardCard: document.querySelector("#rewardCard"),
+  rewardPuzzle: document.querySelector("#rewardPuzzle"),
+  rewardMetric: document.querySelector("#rewardMetric"),
+  rewardCaption: document.querySelector("#rewardCaption"),
   timerMetricRow: document.querySelector("#timerMetricRow"),
   timerMetric: document.querySelector("#timerMetric"),
   timerScoreRow: document.querySelector("#timerScoreRow"),
@@ -336,6 +364,11 @@ function normalizeWorldContinents(values) {
 }
 
 function isFrLevel(value) {
+  const text = String(value || "");
+  if (text.startsWith("1e ASO Rob")) {
+    return true;
+  }
+
   return [
     "all",
     "1e Leerjaar",
@@ -693,6 +726,7 @@ function renderStudy() {
     els.progressMetric.textContent = "0 / 0";
     els.knownMetric.textContent = "0";
     els.againMetric.textContent = "0";
+    renderRewardPuzzle(0);
     renderTimer();
     return;
   }
@@ -713,6 +747,7 @@ function renderStudy() {
   els.progressMetric.textContent = progress;
   els.knownMetric.textContent = String(study.roundKnown);
   els.againMetric.textContent = String(study.roundAgain);
+  renderRewardPuzzle(study.queue.length);
   els.flipButton.textContent = study.flipped ? "Vraag tonen" : "Omdraaien";
   renderStudyModeControls(true, display);
   renderTimer();
@@ -721,6 +756,58 @@ function renderStudy() {
 
 function isTypeMode() {
   return state.settings?.studyMode === "type";
+}
+
+function renderRewardPuzzle(totalCards) {
+  if (!els.rewardPuzzle || !els.rewardMetric || !els.rewardCaption) {
+    return;
+  }
+
+  const target = rewardTarget(totalCards);
+  const revealed = Math.min(study.rewardPieces, target);
+  els.rewardMetric.textContent = `${revealed} / ${target}`;
+  els.rewardCaption.textContent = target
+    ? revealed >= target
+      ? "Puzzel klaar. Goed gewerkt!"
+      : "Elk juist antwoord maakt de puzzel verder."
+    : "Kies kaarten om de puzzel te starten.";
+
+  const imageUrl = `url("data:image/svg+xml,${encodeURIComponent(REWARD_SVG)}")`;
+  els.rewardPuzzle.replaceChildren();
+
+  for (let index = 0; index < REWARD_PIECE_COUNT; index += 1) {
+    const piece = document.createElement("div");
+    const active = index < target;
+    piece.className = `reward-piece${index < revealed ? " revealed" : ""}${active ? "" : " placeholder"}`;
+    if (active) {
+      const column = index % 4;
+      const row = Math.floor(index / 4);
+      piece.style.backgroundImage = imageUrl;
+      piece.style.backgroundSize = "400% 400%";
+      piece.style.backgroundPosition = `${column * 33.3333}% ${row * 33.3333}%`;
+    }
+    els.rewardPuzzle.append(piece);
+  }
+}
+
+function rewardTarget(totalCards) {
+  return Math.min(REWARD_PIECE_COUNT, Math.max(0, totalCards));
+}
+
+function addRewardPiece() {
+  const target = rewardTarget(study.queue.length);
+  if (!target || study.rewardPieces >= target) {
+    return;
+  }
+
+  study.rewardPieces += 1;
+  if (study.rewardPieces >= target) {
+    study.rewardComplete = true;
+    showToast("Puzzel klaar. Goed gewerkt!");
+    return;
+  }
+
+  showToast(REWARD_MESSAGES[(study.rewardPieces - 1) % REWARD_MESSAGES.length]);
 }
 
 function isTimerEnabled() {
@@ -1411,6 +1498,7 @@ function applyCardGrade(card, result) {
   if (result === "known") {
     card.correct += 1;
     study.roundKnown += 1;
+    addRewardPiece();
     countTimedAnswer(card, true);
   } else {
     card.again += 1;
@@ -1440,6 +1528,8 @@ function clearTypedAnswer() {
 function resetRoundStats() {
   study.roundKnown = 0;
   study.roundAgain = 0;
+  study.rewardPieces = 0;
+  study.rewardComplete = false;
 }
 
 function repeatLater() {
