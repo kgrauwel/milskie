@@ -1446,7 +1446,49 @@ function formatFieldAnswers(fields, property) {
 }
 
 function answersMatch(given, expected) {
-  return normalizeAnswer(given) === normalizeAnswer(expected);
+  const normalizedGiven = normalizeAnswer(given);
+  if (!normalizedGiven) {
+    return false;
+  }
+
+  return answerAlternatives(expected).some((option) => {
+    const normalizedExpected = normalizeAnswer(option);
+    if (normalizedGiven === normalizedExpected) {
+      return true;
+    }
+
+    const givenWithoutArticle = withoutLeadingArticle(normalizedGiven);
+    const expectedWithoutArticle = withoutLeadingArticle(normalizedExpected);
+    return (
+      (givenWithoutArticle.changed || expectedWithoutArticle.changed) &&
+      givenWithoutArticle.text === expectedWithoutArticle.text
+    );
+  });
+}
+
+function answerAlternatives(value) {
+  const parts = String(value || "")
+    .split("/")
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (parts.length <= 1) {
+    return [value];
+  }
+
+  const firstIsToVerb = normalizeAnswer(parts[0]).startsWith("to ");
+  return parts.map((part) => {
+    if (firstIsToVerb && !normalizeAnswer(part).startsWith("to ")) {
+      return `to ${part}`;
+    }
+    return part;
+  });
+}
+
+function withoutLeadingArticle(value) {
+  const text = String(value || "").trim();
+  const stripped = text.replace(/^(a|an|the|de|het|een)\s+/, "");
+  return { text: stripped, changed: stripped !== text };
 }
 
 function renderTypedFeedback(given, expected, correct) {

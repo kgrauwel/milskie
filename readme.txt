@@ -73,6 +73,10 @@ Je kunt leren op 2 manieren:
   De app controleert of het juist is.
   Bij een fout toont de app vraag, juiste antwoord, jouw antwoord,
   en een duidelijke markering van de fout.
+  Bij zelfstandige naamwoorden mag het lidwoord anders zijn of ontbreken,
+  bijvoorbeeld "a bathroom", "the bathroom" en "bathroom".
+  Bij Engelse werkwoorden blijft "to" verplicht.
+  Bij meerdere vertalingen met / is een van de antwoorden genoeg.
 
 Dit kies je bij:
 
