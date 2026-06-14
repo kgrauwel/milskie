@@ -1,4 +1,4 @@
-const CACHE_NAME = "flashcards-v15";
+const CACHE_NAME = "flashcards-v16";
 const ASSETS = [
   "./",
   "./index.html",
@@ -12,7 +12,10 @@ const ASSETS = [
   "./images/puzzles/studeren1.jpg",
   "./images/puzzles/studeren2.jpg",
   "./images/puzzles/studeren3.jpg",
-  "./images/puzzles/studeren4.jpg"
+  "./images/puzzles/studeren4.jpg",
+  "./images/puzzles/studeren5.jpg",
+  "./images/puzzles/studeren6.jpg",
+  "./images/puzzles/studeren7.jpg"
 ];
 
 self.addEventListener("install", (event) => {

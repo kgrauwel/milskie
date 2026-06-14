@@ -7,7 +7,10 @@ const REWARD_IMAGE_PATHS = [
   "./images/puzzles/studeren1.jpg",
   "./images/puzzles/studeren2.jpg",
   "./images/puzzles/studeren3.jpg",
-  "./images/puzzles/studeren4.jpg"
+  "./images/puzzles/studeren4.jpg",
+  "./images/puzzles/studeren5.jpg",
+  "./images/puzzles/studeren6.jpg",
+  "./images/puzzles/studeren7.jpg"
 ];
 const REWARD_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
   <rect width="400" height="400" fill="#f7f6ef"/>
